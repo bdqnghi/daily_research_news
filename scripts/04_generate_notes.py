@@ -172,7 +172,10 @@ def main():
     count = 0
     for day in sorted(by_day.keys()):
         note = generate_note(day, by_day[day], url_titles, articles)
-        (vault / f"{day}.md").write_text(note, encoding='utf-8')
+        year, month = day[:4], day[5:7]
+        out_dir = vault / year / month
+        out_dir.mkdir(parents=True, exist_ok=True)
+        (out_dir / f"{day}.md").write_text(note, encoding='utf-8')
         count += 1
     print(f"Wrote {count} notes to {vault}")
 
