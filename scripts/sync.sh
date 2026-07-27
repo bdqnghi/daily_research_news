@@ -2,8 +2,15 @@
 # Sync new X likes into this repo as daily markdown notes.
 #
 # Usage:
-#   ./sync.sh <X_USERNAME> <SINCE_DATE>
-#   ./sync.sh QuocNghi91 2026-06-14
+#   ./sync.sh <X_USERNAME> [SINCE_DATE]
+#   ./sync.sh QuocNghi91              # default: re-sync the last 7 days
+#   ./sync.sh QuocNghi91 2026-06-14   # explicit cutoff
+#
+# WHY THE DEFAULT IS A LOOKBACK, NOT "the day after the last note":
+#   Likes made late in the evening of day D are missed if you sync on day D
+#   and then next sync from D+1 — that day is never revisited. This silently
+#   dropped 71 likes across 37 days before it was caught (see audit.py).
+#   Regeneration is idempotent, so always re-cover a few days of overlap.
 #
 # Requires:
 #   - Chrome with active X login (cookies are read from Chrome)
@@ -12,8 +19,9 @@
 
 set -euo pipefail
 
-USERNAME="${1:?usage: sync.sh <username> <since-YYYY-MM-DD>}"
-SINCE="${2:?usage: sync.sh <username> <since-YYYY-MM-DD>}"
+USERNAME="${1:?usage: sync.sh <username> [since-YYYY-MM-DD]}"
+LOOKBACK_DAYS="${LOOKBACK_DAYS:-7}"
+SINCE="${2:-$(date -v-"${LOOKBACK_DAYS}"d +%Y-%m-%d 2>/dev/null || date -d "${LOOKBACK_DAYS} days ago" +%Y-%m-%d)}"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
@@ -28,7 +36,7 @@ python3 "$SCRIPT_DIR/02_fetch_titles.py" --likes "$TMP/x_likes_new.json" --since
 echo "→ [3/4] Fetching X Article content"
 python3 "$SCRIPT_DIR/03_fetch_articles.py" --likes "$TMP/x_likes_new.json" --since "$SINCE" --out "$TMP/article_contents_new.json"
 
-echo "→ [4/4] Generating daily notes into $REPO_DIR"
+echo "→ [4/4] Generating daily notes into $REPO_DIR (since $SINCE, overlap is intentional)"
 python3 "$SCRIPT_DIR/04_generate_notes.py" \
   --likes "$TMP/x_likes_new.json" \
   --titles "$TMP/url_titles_new.json" \
@@ -37,5 +45,9 @@ python3 "$SCRIPT_DIR/04_generate_notes.py" \
   --vault-dir "$REPO_DIR"
 
 echo
-echo "Done. New notes:"
-git -C "$REPO_DIR" status --short -- '*.md' | tail -20
+echo "→ [5/5] Auditing archive for gaps"
+python3 "$SCRIPT_DIR/audit.py" --likes "$TMP/x_likes_new.json" --repo "$REPO_DIR" || true
+
+echo
+echo "Changed notes:"
+git -C "$REPO_DIR" status --short -- '*.md' | tail -30

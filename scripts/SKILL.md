@@ -24,6 +24,12 @@ Scrapes the user's X likes, resolves link titles, fetches X Article content, and
 
 ## Workflow
 
+**ALWAYS sync with overlap — never start from "the day after the last note."** Likes made
+late in the evening of day *D* are invisible to a sync run earlier that day, and a next-day
+sync starting at *D+1* never revisits them. This silently dropped 71 likes across 37 days
+before `audit.py` caught it. Regeneration is idempotent, so overlap is free — default to a
+7-day lookback. Compute the cutoff from *today minus 7*, not from the newest note on disk.
+
 The scripts live in `~/.claude/skills/sync-x-likes-to-obsidian/scripts/`. Run them in order; each writes intermediate JSON next to itself so later runs can skip stages that already succeeded.
 
 ### Step 1 — Scrape likes
@@ -86,6 +92,25 @@ Writes one `YYYY-MM-DD.md` per day. Each note has:
   - Article tweets get the fetched title in bold + excerpt
   - External links as `📎 [<resolved title>](url)` — falls back to `📎 [Paper: arxiv.org/...](url)` style when a title couldn't be fetched
   - `❤️ <fav> | 🔁 <rt>`
+
+### Step 5 — Audit for gaps
+
+```bash
+python3 ~/.claude/skills/sync-x-likes-to-obsidian/scripts/audit.py \
+  --likes /tmp/x_likes.json --repo <vault-or-repo-dir> \
+  --write-affected /tmp/affected_days.json
+```
+
+Diffs every day-note against the scrape and reports days missing entirely or missing
+individual likes. Exits non-zero when gaps exist. To repair only those days without
+rewriting the rest of the archive, pass them back to step 4 via
+`--only-days @/tmp/affected_days.json` (also accepts a comma-separated list).
+
+**Merge title/article caches before any backfill.** Regenerating a day rewrites it
+completely — if the cache lacks that day's URLs, the note *loses* previously resolved
+link titles and falls back to raw URLs. Merge all prior `url_titles*.json` /
+`article_contents*.json` into a master cache first, and when merging article results
+never let an empty title overwrite a good one.
 
 ## Design Notes
 

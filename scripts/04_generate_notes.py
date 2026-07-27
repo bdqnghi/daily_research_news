@@ -149,7 +149,17 @@ def main():
     ap.add_argument("--articles", required=True)
     ap.add_argument("--since", required=True)
     ap.add_argument("--vault-dir", required=True)
+    ap.add_argument("--only-days", help="Comma-separated YYYY-MM-DD list, or @path to a JSON array. "
+                                        "Regenerate only these days (still subject to --since).")
     args = ap.parse_args()
+
+    only = None
+    if args.only_days:
+        if args.only_days.startswith("@"):
+            with open(args.only_days[1:]) as f:
+                only = set(json.load(f))
+        else:
+            only = {d.strip() for d in args.only_days.split(",") if d.strip()}
 
     cutoff = datetime.strptime(args.since, "%Y-%m-%d")
     with open(args.likes) as f:
@@ -165,7 +175,10 @@ def main():
             continue
         if datetime.strptime(l["date"], "%Y-%m-%d %H:%M:%S") < cutoff:
             continue
-        by_day[l["date"][:10]].append(l)
+        day = l["date"][:10]
+        if only is not None and day not in only:
+            continue
+        by_day[day].append(l)
 
     vault = Path(args.vault_dir)
     vault.mkdir(parents=True, exist_ok=True)

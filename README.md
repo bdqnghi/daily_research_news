@@ -22,23 +22,57 @@ Daily notes from 2025-10-12 onward, updated periodically.
 The whole pipeline lives in [`scripts/`](scripts/). To sync new likes:
 
 ```bash
-./scripts/sync.sh <X_USERNAME> <SINCE_YYYY-MM-DD>
+./scripts/sync.sh <X_USERNAME> [SINCE_YYYY-MM-DD]
 # e.g.
-./scripts/sync.sh QuocNghi91 2026-06-14
+./scripts/sync.sh QuocNghi91              # default: re-covers the last 7 days
+./scripts/sync.sh QuocNghi91 2026-06-14   # explicit cutoff
 ```
 
-This runs four stages sequentially:
+> ### ⚠️ Always sync with overlap
+> Do **not** start from "the day after the last note." Likes made late in the
+> evening of day *D* are invisible to a sync run earlier that day, and a
+> next-day sync starting at *D+1* never revisits them. This silently dropped
+> **71 likes across 37 days** (back to 2025-11-07) before `audit.py` caught it.
+> Regeneration is idempotent, so overlap costs nothing — hence the default
+> 7-day lookback (override with the `LOOKBACK_DAYS` env var).
+
+This runs five stages sequentially:
 
 1. **`01_scrape_likes.py`** — `gallery-dl --cookies-from-browser chrome` against `https://x.com/<user>/likes`, dedupes by tweet_id.
 2. **`02_fetch_titles.py`** — resolves external URLs to human titles (arxiv API for papers, `<title>` tag for everything else).
 3. **`03_fetch_articles.py`** — Playwright + Chrome cookies to render X Articles (long-form posts) and extract title + excerpt.
 4. **`04_generate_notes.py`** — writes one `YYYY-MM-DD.md` per day, organized into `YYYY/MM/` folders.
+5. **`audit.py`** — diffs the whole archive against the scrape and reports any day that is missing entirely or missing individual likes.
 
 After it finishes, commit and push the new days:
 
 ```bash
 git add '*.md' && git commit -m "sync: <date range>" && git push
 ```
+
+### Repairing gaps
+
+`audit.py` runs automatically at the end of every sync, but can be run standalone
+and exits non-zero when it finds gaps (so it can gate CI):
+
+```bash
+python3 scripts/audit.py --likes /tmp/x_likes_new.json --repo . \
+  --write-affected /tmp/affected_days.json
+```
+
+To rebuild only the affected days without touching the other ~200 notes, pass the
+list to the generator — `--only-days` accepts a comma-separated list or `@file`
+pointing at a JSON array:
+
+```bash
+python3 scripts/04_generate_notes.py \
+  --likes /tmp/x_likes_new.json --titles <titles.json> --articles <articles.json> \
+  --since 2025-10-12 --only-days @/tmp/affected_days.json --vault-dir .
+```
+
+**Merge your title/article caches before a backfill.** Regenerating a day rewrites
+it completely, so if the cache lacks that day's URLs the note will *lose* its
+previously resolved link titles and fall back to raw URLs.
 
 ### Requirements
 
