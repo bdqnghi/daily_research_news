@@ -8,7 +8,7 @@ Research news from posts I've liked on X and LinkedIn, with topic summaries, pos
 - [`LinkedIn/`](LinkedIn/README.md) — LinkedIn liked posts and import coverage, focused on 2026.
 - [`scripts/`](scripts/) — import and audit tools.
 
-Each source keeps its own provenance, even when the same research appears on both platforms. LinkedIn notes distinguish publication dates from unavailable reaction timestamps.
+Each source keeps its own provenance, even when the same research appears on both platforms. Both archives group posts by publication day. LinkedIn notes include exact publication timestamps and substantive post summaries.
 
 ## Format
 

@@ -8,7 +8,7 @@
   "coverage": "partial",
   "observed_activity_items": 430,
   "post_like_observations": 429,
-  "post_summaries": 427,
+  "post_summaries": 429,
   "identical_content_groups": [
     {
       "id": "1b037d71306bcc0b7be62118",
@@ -16,7 +16,7 @@
         105,
         129
       ],
-      "status": "Identical author and content grouped provisionally; reconcile against export URLs."
+      "status": "Distinct original post permalinks verified; both posts retained separately with their own publication dates."
     },
     {
       "id": "8b01beaa8fe4e4b82efbd3bc",
@@ -24,10 +24,10 @@
         213,
         241
       ],
-      "status": "Identical author and content grouped provisionally; reconcile against export URLs."
+      "status": "Distinct original post permalinks verified; both posts retained separately with their own publication dates."
     }
   ],
-  "post_urls_captured": 50,
+  "post_urls_captured": 429,
   "exact_reaction_dates_available": false,
   "displayed_publication_age_range": [
     "6h",
@@ -51,10 +51,15 @@
     "help_url": "https://www.linkedin.com/help/linkedin/answer/a1339364/"
   },
   "remaining_work": [
-    "Obtain Reactions export.",
-    "Select Like events dated in 2026.",
-    "Reconcile post URLs, identical-content observations, and exact reaction dates.",
-    "Retrieve and summarize remaining 2026 liked posts.",
-    "Audit against all 2026 Like events."
-  ]
+    "Obtain the pending Reactions export to reconcile the complete 2026 Like inventory.",
+    "Retrieve and summarize earlier 2026 liked posts absent from this captured collection.",
+    "Audit the expanded archive against all 2026 Like events."
+  ],
+  "date_basis": "post_publication_utc",
+  "publication_dates_resolved": 429,
+  "publication_dates_pending": 0,
+  "daily_note_count": 104,
+  "detailed_summaries": 429,
+  "publication_date_method": "Unix-millisecond timestamp encoded in original LinkedIn post ID (integer ID shifted right 22 bits), grouped by UTC publication day.",
+  "exact_reaction_dates_required_for_daily_grouping": false
 }
