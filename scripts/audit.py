@@ -20,7 +20,7 @@ ARCHIVE_START = "2025-10-12"  # nothing before this was ever imported
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--likes", required=True, help="Scraped likes JSON (from 01_scrape_likes.py)")
-    ap.add_argument("--repo", required=True, help="Repo root containing YYYY/MM/*.md")
+    ap.add_argument("--repo", required=True, help="Repository root or X archive containing YYYY/MM/*.md")
     ap.add_argument("--since", default=ARCHIVE_START)
     ap.add_argument("--write-affected", help="Write the affected-day list here as a JSON array")
     args = ap.parse_args()
@@ -35,7 +35,8 @@ def main():
             scraped[day].add(str(l["tweet_id"]))
 
     in_repo, have_file = defaultdict(set), set()
-    for path in glob.glob(os.path.join(args.repo, "20*/*/*.md")):
+    archive_dir = os.path.join(args.repo, "X") if os.path.isdir(os.path.join(args.repo, "X")) else args.repo
+    for path in glob.glob(os.path.join(archive_dir, "20*/*/*.md")):
         day = os.path.basename(path)[:-3]
         have_file.add(day)
         with open(path) as f:
@@ -73,7 +74,7 @@ def main():
     print("\nBackfill with:")
     print(f"  04_generate_notes.py --likes {args.likes} --titles <titles.json> "
           f"--articles <articles.json> --since {args.since} "
-          f"--only-days {args.write_affected or '<day,day,...>'} --vault-dir {args.repo}")
+          f"--only-days {args.write_affected or '<day,day,...>'} --vault-dir {archive_dir}")
     return 1
 
 

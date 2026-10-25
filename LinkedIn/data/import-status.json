@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "observed_on": "2026-10-24",
+  "timezone": "America/Los_Angeles",
+  "profile_url": "https://www.linkedin.com/in/quocnghi/",
+  "source_url": "https://www.linkedin.com/in/quocnghi/recent-activity/reactions/",
+  "requested_reaction_year": 2026,
+  "coverage": "partial",
+  "observed_activity_items": 430,
+  "post_like_observations": 429,
+  "post_summaries": 427,
+  "identical_content_groups": [
+    {
+      "id": "1b037d71306bcc0b7be62118",
+      "capture_orders": [
+        105,
+        129
+      ],
+      "status": "Identical author and content grouped provisionally; reconcile against export URLs."
+    },
+    {
+      "id": "8b01beaa8fe4e4b82efbd3bc",
+      "capture_orders": [
+        213,
+        241
+      ],
+      "status": "Identical author and content grouped provisionally; reconcile against export URLs."
+    }
+  ],
+  "post_urls_captured": 50,
+  "exact_reaction_dates_available": false,
+  "displayed_publication_age_range": [
+    "6h",
+    "3mo"
+  ],
+  "earlier_2026_verified": false,
+  "collection_blocker": "The growing LinkedIn activity page timed out during additional history reads.",
+  "excluded_items": [
+    {
+      "capture_order": 378,
+      "reason": "Liked a comment, not the post.",
+      "author": "Elvis Saravia"
+    }
+  ],
+  "official_export": {
+    "requested_on_local": "2026-10-24",
+    "status": "pending",
+    "estimated_wait_hours": 24,
+    "scope": "Larger account archive (only the Reactions file is needed for this task).",
+    "settings_url": "https://www.linkedin.com/mypreferences/d/download-my-data",
+    "help_url": "https://www.linkedin.com/help/linkedin/answer/a1339364/"
+  },
+  "remaining_work": [
+    "Obtain Reactions export.",
+    "Select Like events dated in 2026.",
+    "Reconcile post URLs, identical-content observations, and exact reaction dates.",
+    "Retrieve and summarize remaining 2026 liked posts.",
+    "Audit against all 2026 Like events."
+  ]
+}

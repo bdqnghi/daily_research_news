@@ -1,10 +1,18 @@
 # Daily Research News
 
-Daily markdown digests of tweets I've liked on X — organized day by day, with key topic summaries, tweet permalinks, and resolved titles for external links (arxiv papers, GitHub repos, blog posts, X Articles).
+Research news from posts I've liked on X and LinkedIn, with topic summaries, post permalinks, and external research links.
+
+## Sources
+
+- [`X/`](X/) — the existing X archive, including daily notes, newsletters, and research picks.
+- [`LinkedIn/`](LinkedIn/README.md) — LinkedIn liked posts and import coverage, focused on 2026.
+- [`scripts/`](scripts/) — import and audit tools.
+
+Each source keeps its own provenance, even when the same research appears on both platforms. LinkedIn notes distinguish publication dates from unavailable reaction timestamps.
 
 ## Format
 
-Notes are organized into `YYYY/MM/` folders (e.g. `2026/06/2026-06-13.md`). Each `YYYY-MM-DD.md` file contains:
+X notes are organized into `X/YYYY/MM/` folders (e.g. `X/2026/06/2026-06-13.md`). Each `YYYY-MM-DD.md` file contains:
 
 - **Key Topics** — one-line summary per liked tweet
 - **Liked Tweets** — full content of each tweet with:
@@ -15,11 +23,11 @@ Notes are organized into `YYYY/MM/` folders (e.g. `2026/06/2026-06-13.md`). Each
 
 ## Coverage
 
-Daily notes from 2025-10-12 onward, updated periodically.
+X daily notes run from 2025-10-12 onward. The LinkedIn collection is a partial 2026 backfill: [read the collection and pending coverage](LinkedIn/README.md).
 
-## Updating
+## Updating X
 
-The whole pipeline lives in [`scripts/`](scripts/). To sync new likes:
+The X pipeline lives in [`scripts/`](scripts/). To sync new X likes:
 
 ```bash
 ./scripts/sync.sh <X_USERNAME> [SINCE_YYYY-MM-DD]
@@ -41,7 +49,7 @@ This runs five stages sequentially:
 1. **`01_scrape_likes.py`** — `gallery-dl --cookies-from-browser chrome` against `https://x.com/<user>/likes`, dedupes by tweet_id.
 2. **`02_fetch_titles.py`** — resolves external URLs to human titles (arxiv API for papers, `<title>` tag for everything else).
 3. **`03_fetch_articles.py`** — Playwright + Chrome cookies to render X Articles (long-form posts) and extract title + excerpt.
-4. **`04_generate_notes.py`** — writes one `YYYY-MM-DD.md` per day, organized into `YYYY/MM/` folders.
+4. **`04_generate_notes.py`** — writes one `YYYY-MM-DD.md` per day, organized into `X/YYYY/MM/` folders.
 5. **`audit.py`** — diffs the whole archive against the scrape and reports any day that is missing entirely or missing individual likes.
 
 After it finishes, commit and push the new days:
@@ -56,7 +64,7 @@ git add '*.md' && git commit -m "sync: <date range>" && git push
 and exits non-zero when it finds gaps (so it can gate CI):
 
 ```bash
-python3 scripts/audit.py --likes /tmp/x_likes_new.json --repo . \
+python3 scripts/audit.py --likes /tmp/x_likes_new.json --repo X \
   --write-affected /tmp/affected_days.json
 ```
 
@@ -67,7 +75,7 @@ pointing at a JSON array:
 ```bash
 python3 scripts/04_generate_notes.py \
   --likes /tmp/x_likes_new.json --titles <titles.json> --articles <articles.json> \
-  --since 2025-10-12 --only-days @/tmp/affected_days.json --vault-dir .
+  --since 2025-10-12 --only-days @/tmp/affected_days.json --vault-dir X
 ```
 
 **Merge your title/article caches before a backfill.** Regenerating a day rewrites

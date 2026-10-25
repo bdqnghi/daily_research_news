@@ -25,6 +25,7 @@ SINCE="${2:-$(date -v-"${LOOKBACK_DAYS}"d +%Y-%m-%d 2>/dev/null || date -d "${LO
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+X_DIR="$REPO_DIR/X"
 TMP=/tmp
 
 echo "→ [1/4] Scraping likes for @$USERNAME"
@@ -36,17 +37,17 @@ python3 "$SCRIPT_DIR/02_fetch_titles.py" --likes "$TMP/x_likes_new.json" --since
 echo "→ [3/4] Fetching X Article content"
 python3 "$SCRIPT_DIR/03_fetch_articles.py" --likes "$TMP/x_likes_new.json" --since "$SINCE" --out "$TMP/article_contents_new.json"
 
-echo "→ [4/4] Generating daily notes into $REPO_DIR (since $SINCE, overlap is intentional)"
+echo "→ [4/4] Generating daily notes into $X_DIR (since $SINCE, overlap is intentional)"
 python3 "$SCRIPT_DIR/04_generate_notes.py" \
   --likes "$TMP/x_likes_new.json" \
   --titles "$TMP/url_titles_new.json" \
   --articles "$TMP/article_contents_new.json" \
   --since "$SINCE" \
-  --vault-dir "$REPO_DIR"
+  --vault-dir "$X_DIR"
 
 echo
 echo "→ [5/5] Auditing archive for gaps"
-python3 "$SCRIPT_DIR/audit.py" --likes "$TMP/x_likes_new.json" --repo "$REPO_DIR" || true
+python3 "$SCRIPT_DIR/audit.py" --likes "$TMP/x_likes_new.json" --repo "$X_DIR" || true
 
 echo
 echo "Changed notes:"
