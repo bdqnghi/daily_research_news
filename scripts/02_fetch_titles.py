@@ -12,6 +12,21 @@ ssl._create_default_https_context = ssl._create_unverified_context
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 
 
+def sanitize_url(url):
+    """Drop trailing prose punctuation. Keep a '!' that ends a path, query, or fragment.
+
+    'https://example.com!' is a host plus a sentence mark. 'https://example.com/a!'
+    and 'https://example.com/q?x=1!' keep the bang. Same helper as extract_urls.
+    """
+    url = url.rstrip('.,;:')
+    while url.endswith('!'):
+        body = re.sub(r'^https?://', '', url[:-1])
+        if any(c in body for c in '/?#'):
+            break
+        url = url[:-1].rstrip('.,;:')
+    return url
+
+
 def collect_urls(likes, cutoff):
     urls = set()
     for l in likes:
@@ -20,7 +35,7 @@ def collect_urls(likes, cutoff):
         if datetime.strptime(l["date"], "%Y-%m-%d %H:%M:%S") < cutoff:
             continue
         for u in re.findall(r'https?://[^\s\)\]>]+', l["content"]):
-            u = u.rstrip('.,;:!')
+            u = sanitize_url(u)
             if 'x.com' in u or 'twitter.com' in u:
                 continue
             urls.add(u)

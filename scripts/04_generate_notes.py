@@ -15,6 +15,21 @@ X_ARTICLE_RE = re.compile(r'^https?://(x|twitter)\.com/i/article/\d+$')
 X_LINK_RE = re.compile(r'https?://(x|twitter)\.com/\S+')
 
 
+def sanitize_url(url):
+    """Drop trailing prose punctuation. Keep a '!' that ends a path, query, or fragment.
+
+    'https://example.com!' is a host plus a sentence mark. 'https://example.com/a!'
+    and 'https://example.com/q?x=1!' keep the bang. Same helper as collect_urls.
+    """
+    url = url.rstrip('.,;:')
+    while url.endswith('!'):
+        body = re.sub(r'^https?://', '', url[:-1])
+        if any(c in body for c in '/?#'):
+            break
+        url = url[:-1].rstrip('.,;:')
+    return url
+
+
 def extract_urls(text):
     urls = re.findall(r'https?://[^\s\)\]>]+', text)
     for a in re.findall(r'arxiv\.?\s*org/abs/[\d.]+', text):
@@ -23,7 +38,7 @@ def extract_urls(text):
             urls.append(clean)
     external, seen = [], set()
     for u in urls:
-        u = u.rstrip('.,;:!')
+        u = sanitize_url(u)
         if 'x.com' in u or 'twitter.com' in u:
             continue
         norm = re.sub(r'^https?://', '', u).rstrip('/')
