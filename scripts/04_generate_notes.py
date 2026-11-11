@@ -23,7 +23,7 @@ def extract_urls(text):
             urls.append(clean)
     external, seen = [], set()
     for u in urls:
-        u = u.rstrip('.,;:')
+        u = u.rstrip('.,;:!')
         if 'x.com' in u or 'twitter.com' in u:
             continue
         norm = re.sub(r'^https?://', '', u).rstrip('/')

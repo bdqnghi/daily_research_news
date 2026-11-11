@@ -1,6 +1,20 @@
 {
   "schema_version": 1,
-  "observed_on": "2026-10-24",
+  "observed_on": "2026-11-11",
+  "observations": [
+    {
+      "observed_on": "2026-10-24",
+      "observed_activity_items": 430,
+      "post_like_observations": 429,
+      "note": "Initial 2026 reactions capture, including one excluded comment-like."
+    },
+    {
+      "observed_on": "2026-11-11",
+      "observed_activity_items": 20,
+      "post_like_observations": 20,
+      "note": "Incremental likes import. Per-post observed_on on these 20 records matches this batch."
+    }
+  ],
   "timezone": "America/Los_Angeles",
   "profile_url": "https://www.linkedin.com/in/quocnghi/",
   "source_url": "https://www.linkedin.com/in/quocnghi/recent-activity/reactions/",

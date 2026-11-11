@@ -134,7 +134,9 @@ def main():
               'Daily research notes grouped by the exact publication day of each liked post, matching `X/YYYY/MM/YYYY-MM-DD.md`.', '',
               '## Daily notes', '']
     for day, day_posts in sorted(days.items(), reverse=True):
-        readme.append(f'- [{day}]({day[:4]}/{day[5:7]}/{day}.md) — {len(day_posts)} posts')
+        count = len(day_posts)
+        unit = 'post' if count == 1 else 'posts'
+        readme.append(f'- [{day}]({day[:4]}/{day[5:7]}/{day}.md) — {count} {unit}')
     if pending:
         readme += ['', f'[{len(pending)} posts awaiting exact publication dates](pending-publication-dates.md).']
     readme += ['', '## Format', '',

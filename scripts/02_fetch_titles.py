@@ -20,7 +20,7 @@ def collect_urls(likes, cutoff):
         if datetime.strptime(l["date"], "%Y-%m-%d %H:%M:%S") < cutoff:
             continue
         for u in re.findall(r'https?://[^\s\)\]>]+', l["content"]):
-            u = u.rstrip('.,;:')
+            u = u.rstrip('.,;:!')
             if 'x.com' in u or 'twitter.com' in u:
                 continue
             urls.add(u)
