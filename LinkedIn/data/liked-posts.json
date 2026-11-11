@@ -11625,6 +11625,557 @@
       "details": "“An Anatomy of CLI Coding Agent Trajectories” studies failures as a temporal process rather than a final binary label. It separates initial error onset, subsequent compounding, and the point at which recovery becomes impossible. The practical goal is to identify useful intervention checkpoints during execution, helping supervisors act before a failing run reaches an unrecoverable state.",
       "published_at": "2026-07-13T16:05:04.530Z",
       "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC)."
+    },
+    {
+      "id": "5317e1771da499985a6e98ef",
+      "capture_orders": [
+        431
+      ],
+      "author": "Hang Cui",
+      "author_url": "https://www.linkedin.com/in/cuihang/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525706030434066432/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-09",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Meta is hiring a senior (E7+) tech lead to build a continuous-improvement loop for AI agents: model-agent co-training with post-training and agentic RL, trustworthy evaluation (calibrated judges, benchmarks that separate real progress from reward hacking), and turning production trajectories and failures into generalizable improvements.",
+      "external_links": [],
+      "published_at": "2026-11-09T23:48:58.512Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Meta is hiring a senior (E7+) tech lead to build a continuous-improvement loop for AI agents: model-agent co-training with post-training and agentic RL, trustworthy evaluation (calibrated judges, benchmarks that separate real progress from reward hacking), and turning production trajectories and failures into generalizable improvements.",
+      "engagement": {
+        "reactions": "73",
+        "comments": "3",
+        "reposts": "3"
+      }
+    },
+    {
+      "id": "2ac0003064827d5091361118",
+      "capture_orders": [
+        432
+      ],
+      "author": "DAIR.AI",
+      "author_url": "https://www.linkedin.com/company/dair-ai/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525652201495740416/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-09",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Highlights BOXBOX (Microsoft and colleagues): long-running agents revise their own harness mid-task, with a kernel hot-reloading the new harness while keeping execution context.",
+      "external_links": [],
+      "published_at": "2026-11-09T20:15:04.693Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Highlights BOXBOX (Microsoft and colleagues): long-running agents revise their own harness mid-task, with a kernel hot-reloading the new harness while keeping execution context. On the new PerfRace benchmark (hours-long real-software speedup tasks), it reports a 1.70x speedup at four hours vs 1.54x for the best baseline under equal budget.",
+      "engagement": {
+        "reactions": "57",
+        "comments": "9",
+        "reposts": "9"
+      }
+    },
+    {
+      "id": "f46499f302f3cf2bf3e14995",
+      "capture_orders": [
+        433
+      ],
+      "author": "Chen-Yu Lee",
+      "author_url": "https://www.linkedin.com/in/chenyulee260/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525652068775157760/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-09",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Opens Physical-Engineering's Last Exam (PLE) as a $400K Kaggle challenge: 85 expert-reviewed structural, civil, electrical and mechanical engineering tasks in sealed, offline containers with a 6-hour clock.",
+      "external_links": [
+        {
+          "title": "PLE challenge on Kaggle",
+          "url": "https://lnkd.in/gw9VEMsS"
+        },
+        {
+          "title": "arXiv 2610.30537",
+          "url": "https://arxiv.org/abs/2610.30537"
+        },
+        {
+          "title": "PLE leaderboard",
+          "url": "http://ple-bench.com"
+        }
+      ],
+      "published_at": "2026-11-09T20:14:33.050Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Opens Physical-Engineering's Last Exam (PLE) as a $400K Kaggle challenge: 85 expert-reviewed structural, civil, electrical and mechanical engineering tasks in sealed, offline containers with a 6-hour clock. Reported top frontier agent scores 48%, best open-weight 25%. With Hugging Face, Mercor, Kaggle and several universities; submissions close Jan 5, 2027.",
+      "engagement": {
+        "reactions": "102",
+        "comments": "3",
+        "reposts": "6"
+      }
+    },
+    {
+      "id": "aa72623920656e7545785cba",
+      "capture_orders": [
+        434
+      ],
+      "author": "Pascal Biese",
+      "author_url": "https://www.linkedin.com/in/pascalbiese/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525492301272567808/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-09",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Summarizes CAS/Tsinghua work showing RL-trained agents lose much of their advantage under step caps; their edge appears mainly in recovery after mistakes.",
+      "external_links": [],
+      "published_at": "2026-11-09T09:39:41.509Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Summarizes CAS/Tsinghua work showing RL-trained agents lose much of their advantage under step caps; their edge appears mainly in recovery after mistakes. The proposed BudgetMix trains with random step allowances and tells the agent remaining steps, reporting about +7.5 points at a quarter of the usual steps on two small Qwen models (authors call it preliminary).",
+      "engagement": {
+        "reactions": "47",
+        "comments": "8",
+        "reposts": "4"
+      }
+    },
+    {
+      "id": "8e29022bf6b1b0d1081b45a0",
+      "capture_orders": [
+        435
+      ],
+      "author": "Raphaël MANSUY",
+      "author_url": "https://www.linkedin.com/in/raphaelmansuy/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525391352407429120/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-09",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Summarizes a UIUC/Georgia Tech paper on 'agent-native primitives': reusable tools/components packaged with their own small LLM that know how to apply themselves and message other primitives.",
+      "external_links": [
+        {
+          "title": "heelo.dev",
+          "url": "http://heelo.dev"
+        }
+      ],
+      "published_at": "2026-11-09T02:58:33.424Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Summarizes a UIUC/Georgia Tech paper on 'agent-native primitives': reusable tools/components packaged with their own small LLM that know how to apply themselves and message other primitives. The HEELO framework composes, verifies/revises and publishes primitives, reporting e.g. Terminal-Bench 4.0 37.3% (Codex) to 55.5%, and on heelo.dev's 46 live tasks Claude Code/Codex going from 9 to 39/35 completed. Figures are mostly from the authors' own studies.",
+      "engagement": {
+        "reactions": "19",
+        "comments": "4",
+        "reposts": "4"
+      }
+    },
+    {
+      "id": "61869535f4900ff3bf9ad28f",
+      "capture_orders": [
+        436
+      ],
+      "author": "Pushmeet Kohli",
+      "author_url": "https://www.linkedin.com/in/pushmeet-kohli-4838994/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525152986965118976/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-08",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Says Google DeepMind is seeing a 'phase transition' in the pace of AI-driven scientific discovery, with releases coming in the next few weeks, and a focus on helping the scientific community use these tools responsibly.",
+      "external_links": [],
+      "published_at": "2026-11-08T11:11:22.674Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Says Google DeepMind is seeing a 'phase transition' in the pace of AI-driven scientific discovery, with releases coming in the next few weeks, and a focus on helping the scientific community use these tools responsibly.",
+      "engagement": {
+        "reactions": "1843",
+        "comments": "37",
+        "reposts": "29"
+      }
+    },
+    {
+      "id": "a56a8b99b0c5c134b92ca76e",
+      "capture_orders": [
+        437
+      ],
+      "author": "Ivan Nardini",
+      "author_url": "https://www.linkedin.com/in/ivan-nardini/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525000505719431168/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-08",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Reshare teasing more harness optimization work: Google used AlphaEvolve with Harbor and Gemini 4 Argon to automatically evolve coding-agent skills, with potentially larger gains for domain-specific enterprise skills.",
+      "external_links": [
+        {
+          "title": "How to build an agent skill optimizer with AlphaEvolve and Harbor | Google Cloud Blog",
+          "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-an-agent-skill-optimizer-with-alphaevolve-and-harbor"
+        }
+      ],
+      "published_at": "2026-11-08T01:05:28.312Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Reshare teasing more harness optimization work: Google used AlphaEvolve with Harbor and Gemini 4 Argon to automatically evolve coding-agent skills, with potentially larger gains for domain-specific enterprise skills.",
+      "engagement": {
+        "reactions": "36",
+        "comments": "4",
+        "reposts": "1"
+      }
+    },
+    {
+      "id": "71d3cd4ae5941de45fcabc18",
+      "capture_orders": [
+        438
+      ],
+      "author": "Pinxin Liu",
+      "author_url": "https://www.linkedin.com/in/pinxin-liu-8793891b5/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7524965283405602818/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-07",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Argues AI conferences like ICLR make a poor sandbox for recursive self-improvement: many papers and reviews are AI-generated, a ~25% acceptance rate gives a very noisy reward, and 4-6 month feedback loops are too slow.",
+      "external_links": [],
+      "published_at": "2026-11-07T22:45:30.658Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Argues AI conferences like ICLR make a poor sandbox for recursive self-improvement: many papers and reviews are AI-generated, a ~25% acceptance rate gives a very noisy reward, and 4-6 month feedback loops are too slow.",
+      "engagement": {
+        "reactions": "205",
+        "comments": "2",
+        "reposts": "3"
+      }
+    },
+    {
+      "id": "8e71bddbc0717c5fcdb037a4",
+      "capture_orders": [
+        439
+      ],
+      "author": "Lorenzo Ciarpaglini",
+      "author_url": "https://www.linkedin.com/in/ciarpaglini-lorenzo/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7524824328157368320/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-07",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Re-analyzes MIT CSAIL's 'Sparks of Weight-Space Programming': networks GPT-6 Astra writes for MinAtar games are 95-97% zeros with few distinct values and can be rewritten exactly as short programs (conditional rules, lookup tables).",
+      "external_links": [
+        {
+          "title": "The program behind the weights · Lorenzo Ciarpaglini",
+          "url": "https://lorenzociarpa.org/blog/program-behind-the-weights/"
+        }
+      ],
+      "published_at": "2026-11-07T13:25:24.308Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Re-analyzes MIT CSAIL's 'Sparks of Weight-Space Programming': networks GPT-6 Astra writes for MinAtar games are 95-97% zeros with few distinct values and can be rewritten exactly as short programs (conditional rules, lookup tables). They make poor initializations for PPO, and the model's equivalent Python code beats its own networks. Conclusion: LLMs can write programs in network form, not meaningful trained-like weights.",
+      "engagement": {
+        "reactions": "688",
+        "comments": "35",
+        "reposts": "38"
+      }
+    },
+    {
+      "id": "f3cad5fb11362b4edba28301",
+      "capture_orders": [
+        440
+      ],
+      "author": "Chao Huang",
+      "author_url": "https://www.linkedin.com/in/chao-huang-208993177/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7524766272027480064/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-07",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Open-sources AgentPilot: a small (9B) strategy model that proposes new approaches when a large coding model gets stuck patching the same failing solution, reportedly helping larger models reach better solutions faster.",
+      "external_links": [
+        {
+          "title": "AgentPilot on GitHub",
+          "url": "https://lnkd.in/g-UrYD9H"
+        }
+      ],
+      "published_at": "2026-11-07T09:34:42.648Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Open-sources AgentPilot: a small (9B) strategy model that proposes new approaches when a large coding model gets stuck patching the same failing solution, reportedly helping larger models reach better solutions faster.",
+      "engagement": {
+        "reactions": "84",
+        "comments": "1",
+        "reposts": "8"
+      }
+    },
+    {
+      "id": "1360a4720185773f47c57835",
+      "capture_orders": [
+        441
+      ],
+      "author": "Y Combinator",
+      "author_url": "https://www.linkedin.com/school/y-combinator/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7524654048319455233/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-07",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Launch of Proto (YC F26), an IDE for product designers that combines generating component variants, user-flow mapping and collaboration on a functional prototype that can ship to production.",
+      "external_links": [
+        {
+          "title": "Proto alpha sign-up",
+          "url": "http://www.prototypes.fun"
+        }
+      ],
+      "published_at": "2026-11-07T02:08:46.431Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Launch of Proto (YC F26), an IDE for product designers that combines generating component variants, user-flow mapping and collaboration on a functional prototype that can ship to production.",
+      "engagement": {
+        "reactions": "923",
+        "comments": "59",
+        "reposts": "22"
+      }
+    },
+    {
+      "id": "c715cf8cf92af4c6c68a63d3",
+      "capture_orders": [
+        442
+      ],
+      "author": "Xunzhuo Liu",
+      "author_url": "https://www.linkedin.com/in/bitliu/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7524208978072109056/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-05",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Introduces System Duo from the AMD x vLLM Semantic Router community: fast 'System One' decision models (triage, guard, verify, check) inside the agent loop plus 'System Two' routing to strong models when deep reasoning pays, shown in DeepSeek Harness (force-push guard, prompt-injection shield, PII masking, done-checks).",
+      "external_links": [
+        {
+          "title": "vLLM Semantic Router app",
+          "url": "https://app.vllm-sr.ai"
+        }
+      ],
+      "published_at": "2026-11-05T20:40:13.415Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Introduces System Duo from the AMD x vLLM Semantic Router community: fast 'System One' decision models (triage, guard, verify, check) inside the agent loop plus 'System Two' routing to strong models when deep reasoning pays, shown in DeepSeek Harness (force-push guard, prompt-injection shield, PII masking, done-checks).",
+      "engagement": {
+        "reactions": "380",
+        "comments": "28",
+        "reposts": "43"
+      }
+    },
+    {
+      "id": "f9ea8b4852f87399d110bcd9",
+      "capture_orders": [
+        443
+      ],
+      "author": "Fernando C.",
+      "author_url": "https://www.linkedin.com/in/fernandocaozheng/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7524153843769581568/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-05",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Lists 15 startups founded by ex-DeepMind researchers (Mistral, Reflection AI, Harvey, Discovery Loop, Physical Intelligence, Ineffable Intelligence, Recursive Superintelligence, Ricursive Intelligence, Generalist AI, Periodic Labs, Goodfire, Reka, Gradium, EquiLibre, Mantic), claiming a combined value over $80B.",
+      "external_links": [],
+      "published_at": "2026-11-05T17:01:08.373Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Lists 15 startups founded by ex-DeepMind researchers (Mistral, Reflection AI, Harvey, Discovery Loop, Physical Intelligence, Ineffable Intelligence, Recursive Superintelligence, Ricursive Intelligence, Generalist AI, Periodic Labs, Goodfire, Reka, Gradium, EquiLibre, Mantic), claiming a combined value over $80B.",
+      "engagement": {
+        "reactions": "140",
+        "comments": "6",
+        "reposts": "4"
+      }
+    },
+    {
+      "id": "8cb51e89e66d95959e991907",
+      "capture_orders": [
+        444
+      ],
+      "author": "Dale Finlay",
+      "author_url": "https://www.linkedin.com/in/dale-finlay-2544903/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523863156717314048/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-04",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Anthropic is hiring a founding Head of ASEAN, Applied AI in Singapore to build a team of Solutions Architects and Product Engineers and help large enterprises put Claude into production.",
+      "external_links": [
+        {
+          "title": "Head of ASEAN, Applied AI (job posting)",
+          "url": "https://lnkd.in/gMUXqG3Z"
+        }
+      ],
+      "published_at": "2026-11-04T21:46:03.179Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Anthropic is hiring a founding Head of ASEAN, Applied AI in Singapore to build a team of Solutions Architects and Product Engineers and help large enterprises put Claude into production.",
+      "engagement": {
+        "reactions": "2802",
+        "comments": "43",
+        "reposts": "73"
+      }
+    },
+    {
+      "id": "3557f70535518159b3dee624",
+      "capture_orders": [
+        445
+      ],
+      "author": "Mercor",
+      "author_url": "https://www.linkedin.com/company/mercor-ai/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523445204658614272/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-03",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Mercor on co-building Google's Physical-Engineering's Last Exam (PLE): 85 long-horizon engineering tasks where all frontier models score below 50% on the private set (Claude Opus 5.5 48.3%, GPT 6 Astra 45.8%, Claude Sonnet 5.5 43.5%, Gemini 4 Argon 40.6%).",
+      "external_links": [],
+      "published_at": "2026-11-03T18:05:15.643Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Mercor on co-building Google's Physical-Engineering's Last Exam (PLE): 85 long-horizon engineering tasks where all frontier models score below 50% on the private set (Claude Opus 5.5 48.3%, GPT 6 Astra 45.8%, Claude Sonnet 5.5 43.5%, Gemini 4 Argon 40.6%). The top agent met 91% of individual constraints but only 41.3% of deliverables passed every hard safety check.",
+      "engagement": {
+        "reactions": "343",
+        "comments": "16",
+        "reposts": "28"
+      }
+    },
+    {
+      "id": "f805fbe5d3b2abcefa8ab834",
+      "capture_orders": [
+        446
+      ],
+      "author": "James Zou",
+      "author_url": "https://www.linkedin.com/in/james-zou-2123a4133/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523425544281972736/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-03",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Introduces Paperclip Datasets, which curates datasets from millions of papers from a plain description; releases a 20k-measurement human drug half-life dataset covering 2400+ drugs.",
+      "external_links": [
+        {
+          "title": "Paperclip Datasets",
+          "url": "https://lnkd.in/gWmN-RUT"
+        },
+        {
+          "title": "Blog",
+          "url": "https://lnkd.in/gkhbQaPE"
+        },
+        {
+          "title": "Half-life dataset",
+          "url": "https://lnkd.in/gsDids5x"
+        }
+      ],
+      "published_at": "2026-11-03T16:47:08.244Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Introduces Paperclip Datasets, which curates datasets from millions of papers from a plain description; releases a 20k-measurement human drug half-life dataset covering 2400+ drugs.",
+      "engagement": {
+        "reactions": "1960",
+        "comments": "63",
+        "reposts": "171"
+      }
+    },
+    {
+      "id": "a8dc4b1e9b45657c8b23a2be",
+      "capture_orders": [
+        447
+      ],
+      "author": "Dan Hoyes",
+      "author_url": "https://www.linkedin.com/in/dan-hoyes/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523019436161695745/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-11-02",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Argues RL environments are 'the new data', citing funding for Deeptunee ($43M Series A), Bespoke Labs ($40M) and idler ($9M seed), and says scarce hires are now environment engineers, verifier designers and delivery leads.",
+      "external_links": [],
+      "published_at": "2026-11-02T13:53:24.523Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Argues RL environments are 'the new data', citing funding for Deeptunee ($43M Series A), Bespoke Labs ($40M) and idler ($9M seed), and says scarce hires are now environment engineers, verifier designers and delivery leads.",
+      "engagement": {
+        "reactions": "127",
+        "comments": "6",
+        "reposts": "1"
+      }
+    },
+    {
+      "id": "ff6f7dc25bd1c66f28602068",
+      "capture_orders": [
+        448
+      ],
+      "author": "Zhicheng Yan",
+      "author_url": "https://www.linkedin.com/in/zhichengyan/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7520923349619810304/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-10-27",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Meta Physical AI is hiring senior research scientists for real-time AI visual experiences on AR/MR devices: VLM/VLA pretraining, SFT and RL, on-device efficiency, agentic data flywheels and evaluation, device-cloud hybrid systems.",
+      "external_links": [
+        {
+          "title": "Apply",
+          "url": "https://lnkd.in/gcTjcBet"
+        }
+      ],
+      "published_at": "2026-10-27T19:04:18.548Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Meta Physical AI is hiring senior research scientists for real-time AI visual experiences on AR/MR devices: VLM/VLA pretraining, SFT and RL, on-device efficiency, agentic data flywheels and evaluation, device-cloud hybrid systems.",
+      "engagement": {
+        "reactions": "131",
+        "comments": "0",
+        "reposts": "7"
+      }
+    },
+    {
+      "id": "583e3c605b31f7b99ee9b069",
+      "capture_orders": [
+        449
+      ],
+      "author": "Pushmeet Kohli",
+      "author_url": "https://www.linkedin.com/in/pushmeet-kohli-4838994/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7520443831675187200/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-10-26",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Welcomes the UK's new AI Biosecurity Lab, which Google DeepMind will partner with and support.",
+      "external_links": [
+        {
+          "title": "Introducing the AI Biosecurity Lab",
+          "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab"
+        }
+      ],
+      "published_at": "2026-10-26T11:18:52.561Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Welcomes the UK's new AI Biosecurity Lab, which Google DeepMind will partner with and support.",
+      "engagement": {
+        "reactions": "847",
+        "comments": "33",
+        "reposts": "32"
+      }
+    },
+    {
+      "id": "9ae35ec26a8267d7befc9d85",
+      "capture_orders": [
+        450
+      ],
+      "author": "Appen",
+      "author_url": "https://www.linkedin.com/company/appen/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7506027748293844992/",
+      "observed_on": "2026-11-11",
+      "liked_on": null,
+      "published_on": "2026-09-16",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Promotes Appen's 7-dimension rubric for LLM retrieval evaluation, arguing a single relevance score misses staleness, depth, intent and constraint failures.",
+      "external_links": [],
+      "published_at": "2026-09-16T16:34:30.445Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Promotes Appen's 7-dimension rubric for LLM retrieval evaluation, arguing a single relevance score misses staleness, depth, intent and constraint failures.",
+      "engagement": {
+        "reactions": "6",
+        "comments": "0",
+        "reposts": "0"
+      }
     }
   ]
 }
