@@ -63,7 +63,15 @@ def render_day(day, posts, destination, x_index):
                 f'[{path.stem}]({os.path.relpath(path, destination.parent)})' for path in matches) + '.']
         counts = p.get('engagement')
         if counts:
-            lines += ['', f"❤️ {counts['reactions']} | 💬 {counts['comments']} | 🔁 {counts['reposts']}"]
+            parts = []
+            if counts.get('reactions') is not None:
+                parts.append(f"❤️ {counts['reactions']}")
+            if counts.get('comments') is not None:
+                parts.append(f"💬 {counts['comments']}")
+            if counts.get('reposts') is not None:
+                parts.append(f"🔁 {counts['reposts']}")
+            if parts:
+                lines += ['', ' | '.join(parts)]
         lines += ['', '---', '']
     return '\n'.join(lines)
 
