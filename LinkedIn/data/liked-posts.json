@@ -12720,6 +12720,91 @@
         "comments": "10",
         "reposts": "14"
       }
+    },
+    {
+      "id": "26402b616a8399c58ef8e07f",
+      "capture_orders": [
+        470
+      ],
+      "author": "Pinxin Liu",
+      "author_url": "https://www.linkedin.com/in/pinxin-liu-8793891b5/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7527351907837923331/",
+      "observed_on": "2026-11-15",
+      "liked_on": null,
+      "published_on": "2026-11-14",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Argues robotics with LLMs is a recursive self-improvement (RSI) problem: a slow reasoning agent generates successful trajectories that are distilled (System 2 to System 1, or RL to action tokens) into faster policies, RL must run in simulation, and since building sim environments is a coding task LLMs already do well (Eureka, GenSim, RoboGen), the agent can generate diverse randomized envs and use real-world failures to fix its sim; claims the bottleneck shifts from teleop data to loop speed.",
+      "external_links": [],
+      "published_at": "2026-11-14T12:49:06.264Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Argues robotics with LLMs is a recursive self-improvement (RSI) problem: a slow reasoning agent generates successful trajectories that are distilled (System 2 to System 1, or RL to action tokens) into faster policies, RL must run in simulation, and since building sim environments is a coding task LLMs already do well (Eureka, GenSim, RoboGen), the agent can generate diverse randomized envs and use real-world failures to fix its sim; claims the bottleneck shifts from teleop data to loop speed.",
+      "engagement": {
+        "reactions": "215",
+        "comments": "7",
+        "reposts": "8"
+      }
+    },
+    {
+      "id": "f50262544dd60c1a8c4fc5fb",
+      "capture_orders": [
+        471
+      ],
+      "author": "Lee Danilek",
+      "author_url": "https://www.linkedin.com/in/lee-danilek/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7527441013897048064/",
+      "observed_on": "2026-11-15",
+      "liked_on": null,
+      "published_on": "2026-11-14",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Announces leaving Cursor / SpaceX Super Intelligence after 20 months (employee 40, worked across infra, Tab, Bugbot, evals, agent harness, midtraining, data pipelines and RL environments) to join Cognition's research team.",
+      "external_links": [],
+      "published_at": "2026-11-14T18:43:10.804Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Announces leaving Cursor / SpaceX Super Intelligence after 20 months (employee 40, worked across infra, Tab, Bugbot, evals, agent harness, midtraining, data pipelines and RL environments) to join Cognition's research team.",
+      "engagement": {
+        "reactions": "387",
+        "comments": "23",
+        "reposts": "1"
+      }
+    },
+    {
+      "id": "c4ac95eac31ec8f380d70919",
+      "capture_orders": [
+        472
+      ],
+      "author": "Yifan Wang",
+      "author_url": "https://www.linkedin.com/in/wangyifan411/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7526734839291465729/",
+      "observed_on": "2026-11-15",
+      "liked_on": null,
+      "published_on": "2026-11-12",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Shares AfterQuery's StoreBench, an RL environment where agents run a simulated online apparel store (inventory, pricing, shipping, returns) over 30-45 simulated days (one case up to a year) with reward-hacking safeguards; reports Claude Fable 5.2 was the only model to significantly beat a scripted baseline, GPT-6 Astra and Claude Opus 5.5 were within its margin, and 7 other models scored below it; releases example tasks, trajectories and scoring code.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/gruP5wP9",
+          "url": "https://lnkd.in/gruP5wP9"
+        },
+        {
+          "title": "Shared link: lnkd.in/gmcqj3XP",
+          "url": "https://lnkd.in/gmcqj3XP"
+        },
+        {
+          "title": "StoreBench: Evaluating AI Agents for Business Operations over Long Horizons",
+          "url": "https://www.afterquery.com/blog/storebench"
+        }
+      ],
+      "published_at": "2026-11-12T19:57:05.658Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Shares AfterQuery's StoreBench, an RL environment where agents run a simulated online apparel store (inventory, pricing, shipping, returns) over 30-45 simulated days (one case up to a year) with reward-hacking safeguards; reports Claude Fable 5.2 was the only model to significantly beat a scripted baseline, GPT-6 Astra and Claude Opus 5.5 were within its margin, and 7 other models scored below it; releases example tasks, trajectories and scoring code.",
+      "engagement": {
+        "reactions": "84",
+        "comments": "4",
+        "reposts": "1"
+      }
     }
   ]
 }
