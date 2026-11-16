@@ -12805,6 +12805,116 @@
         "comments": "4",
         "reposts": "1"
       }
+    },
+    {
+      "id": "7da6edff77124faf0f73307e",
+      "capture_orders": [
+        473
+      ],
+      "author": "Pascal Biese",
+      "author_url": "https://www.linkedin.com/in/pascalbiese/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7528031948141723648/",
+      "observed_on": "2026-11-16",
+      "liked_on": null,
+      "published_on": "2026-11-16",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Summarizes Huawei's EvoTrias for AI-driven program evolution: it splits the loop into a separate controller that picks which past versions to build on, a coding agent (Claude Code or OpenCode plug-in) that only writes and repairs code, and a private grader the agent is blocked from reading; on seven math tasks the author reports about $41 per full run versus about $115 for the strongest four-agent rival, while leading on six of seven tasks.",
+      "external_links": [],
+      "published_at": "2026-11-16T09:51:20.507Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Summarizes Huawei's EvoTrias for AI-driven program evolution: it splits the loop into a separate controller that picks which past versions to build on, a coding agent (Claude Code or OpenCode plug-in) that only writes and repairs code, and a private grader the agent is blocked from reading; on seven math tasks the author reports about $41 per full run versus about $115 for the strongest four-agent rival, while leading on six of seven tasks.",
+      "engagement": {
+        "reactions": "24",
+        "comments": "8",
+        "reposts": "2"
+      }
+    },
+    {
+      "id": "8553bf1444f1372221ef0517",
+      "capture_orders": [
+        474
+      ],
+      "author": "Sarthak Rastogi",
+      "author_url": "https://www.linkedin.com/in/sarthakrastogi/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7512351777632010240/",
+      "observed_on": "2026-11-16",
+      "liked_on": null,
+      "published_on": "2026-10-04",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Summarizes AWS's lessons from building thousands of agents at Amazon: evaluate in three layers (model, components such as planning/tool use/memory, and final outcome), use metrics like planning score, tool selection accuracy and tool-call error rate, treat agent trajectories as first-class eval artifacts for regression replay and synthetic datasets, and keep humans in the loop to calibrate LLM-as-a-judge.",
+      "external_links": [
+        {
+          "title": "AI Agent Engineering newsletter",
+          "url": "https://lnkd.in/gaJTcZBR"
+        },
+        {
+          "title": "Link to article",
+          "url": "https://lnkd.in/eFT45Gsq"
+        }
+      ],
+      "published_at": "2026-10-04T03:23:56.534Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Summarizes AWS's lessons from building thousands of agents at Amazon: evaluate in three layers (model, components such as planning/tool use/memory, and final outcome), use metrics like planning score, tool selection accuracy and tool-call error rate, treat agent trajectories as first-class eval artifacts for regression replay and synthetic datasets, and keep humans in the loop to calibrate LLM-as-a-judge.",
+      "engagement": {
+        "reactions": "501",
+        "comments": "22",
+        "reposts": "34"
+      }
+    },
+    {
+      "id": "31dc5edc492f92b00a71c265",
+      "capture_orders": [
+        475
+      ],
+      "author": "Raphaël MANSUY",
+      "author_url": "https://www.linkedin.com/in/raphaelmansuy/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523168330233573378/",
+      "observed_on": "2026-11-16",
+      "liked_on": null,
+      "published_on": "2026-11-02",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Summarizes Balestriero and LeCun's paper proving that JEPAs trained on 'good views' (different observations of the same scene) learn the same embedding up to a rotation across modalities, frames next-token prediction as a JEPA with 'bad views', and reports a 109M text JEPA aligning with DINOv2 better than language models up to 72B, with ~42x sample efficiency versus next-token prediction.",
+      "external_links": [],
+      "published_at": "2026-11-02T23:45:03.636Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Summarizes Balestriero and LeCun's paper proving that JEPAs trained on 'good views' (different observations of the same scene) learn the same embedding up to a rotation across modalities, frames next-token prediction as a JEPA with 'bad views', and reports a 109M text JEPA aligning with DINOv2 better than language models up to 72B, with ~42x sample efficiency versus next-token prediction.",
+      "engagement": {
+        "reactions": "24",
+        "comments": "2",
+        "reposts": "4"
+      }
+    },
+    {
+      "id": "f831b7fcc27b7b4efee2bd8f",
+      "capture_orders": [
+        476
+      ],
+      "author": "Henry Mao",
+      "author_url": "https://www.linkedin.com/in/calclavia/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7527598802971742208/",
+      "observed_on": "2026-11-16",
+      "liked_on": null,
+      "published_on": "2026-11-15",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Pushes back on Dwarkesh's RSI essay claim that narrow superintelligence will build its own RL environments and economy simulations: from selling RL environments, the author argues useful synthetic data needs signal external to the model (real-world-grounded sims, mined traces, human records), though RSI should improve sample efficiency.",
+      "external_links": [
+        {
+          "title": "The avalanche that hit math is coming for AI development",
+          "url": "https://www.dwarkesh.com/p/rsi"
+        }
+      ],
+      "published_at": "2026-11-15T05:10:10.651Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Pushes back on Dwarkesh's RSI essay claim that narrow superintelligence will build its own RL environments and economy simulations: from selling RL environments, the author argues useful synthetic data needs signal external to the model (real-world-grounded sims, mined traces, human records), though RSI should improve sample efficiency.",
+      "engagement": {
+        "reactions": "30",
+        "comments": "6",
+        "reposts": "2"
+      }
     }
   ]
 }
