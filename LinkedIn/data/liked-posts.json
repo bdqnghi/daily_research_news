@@ -12176,6 +12176,350 @@
         "comments": "0",
         "reposts": "0"
       }
+    },
+    {
+      "id": "1b4f0e198a85725f3c84745c",
+      "capture_orders": [
+        451
+      ],
+      "author": "Maksym Andriushchenko",
+      "author_url": "https://www.linkedin.com/in/maksym-andriushchenko/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7526760837466894340/",
+      "observed_on": "2026-11-13",
+      "liked_on": null,
+      "published_on": "2026-11-12",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Releases Schelling Atlas, a study of where two independent LLM agents meet on the web and how fast they find each other.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/d_kd6Wk8",
+          "url": "https://lnkd.in/d_kd6Wk8"
+        }
+      ],
+      "published_at": "2026-11-12T21:40:24.106Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Releases Schelling Atlas, a study of where two independent LLM agents meet on the web and how fast they find each other. Reports that ntfy.sh is the main cross-family meeting point, coordination takes minutes for frontier LLMs, and agents sometimes visit dead domains an attacker could register; argues same-model agents coordinate especially easily, a concern for agent swarms.",
+      "engagement": {
+        "reactions": "186",
+        "comments": "4",
+        "reposts": "11"
+      }
+    },
+    {
+      "id": "e79dfffaa266356954e7b135",
+      "capture_orders": [
+        452
+      ],
+      "author": "Rohan Paul",
+      "author_url": "https://www.linkedin.com/in/rohan-paul-ai/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526281736553570304/",
+      "observed_on": "2026-11-13",
+      "liked_on": null,
+      "published_on": "2026-11-11",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Summarizes a paper arguing recursive self-improvement (RSI) cannot yet be called safe because there is no shared framework for where it leads; the author trained a small LLM from scratch via one high-level prompt, and a 2-player game model shows the RSI race is a Prisoner's Dilemma only at some risk levels.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/dtR7ixzy",
+          "url": "https://lnkd.in/dtR7ixzy"
+        }
+      ],
+      "published_at": "2026-11-11T13:56:37.547Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Summarizes a paper arguing recursive self-improvement (RSI) cannot yet be called safe because there is no shared framework for where it leads; the author trained a small LLM from scratch via one high-level prompt, and a 2-player game model shows the RSI race is a Prisoner's Dilemma only at some risk levels.",
+      "engagement": {
+        "reactions": "1",
+        "comments": null,
+        "reposts": null
+      }
+    },
+    {
+      "id": "061ad9b9ce9f933601b8c27b",
+      "capture_orders": [
+        453
+      ],
+      "author": "James Zou",
+      "author_url": "https://www.linkedin.com/in/james-zou-2123a4133/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7526781926695915520/",
+      "observed_on": "2026-11-13",
+      "liked_on": null,
+      "published_on": "2026-11-12",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Announces AI Bytes, a new monthly Nature Methods column explaining AI concepts to life-science researchers; the first piece, led by Zijian Ma, covers foundation models for biology.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/g7d-D2eU",
+          "url": "https://lnkd.in/g7d-D2eU"
+        }
+      ],
+      "published_at": "2026-11-12T23:04:12.170Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Announces AI Bytes, a new monthly Nature Methods column explaining AI concepts to life-science researchers; the first piece, led by Zijian Ma, covers foundation models for biology.",
+      "engagement": {
+        "reactions": "868",
+        "comments": "27",
+        "reposts": "47"
+      }
+    },
+    {
+      "id": "9b316eca02002ba93e64e486",
+      "capture_orders": [
+        454
+      ],
+      "author": "DAIR.AI",
+      "author_url": "https://www.linkedin.com/company/dair-ai/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7526664117655437313/",
+      "observed_on": "2026-11-13",
+      "liked_on": null,
+      "published_on": "2026-11-12",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Highlights a paper claiming the first application of RSI to an entire frontier pre-training run: agent-driven loops (infra/data debugging, tiny SFT headroom checks, expert judgment turned into data metrics, a shared context store of negative results) produced 801-30B-A3B, an open 30B MoE base that reportedly beats Qwen3-30B-A3B and, with 6B tokens of SFT and no RL, tops four agentic benchmarks on average.",
+      "external_links": [],
+      "published_at": "2026-11-12T15:16:04.306Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Highlights a paper claiming the first application of RSI to an entire frontier pre-training run: agent-driven loops (infra/data debugging, tiny SFT headroom checks, expert judgment turned into data metrics, a shared context store of negative results) produced 801-30B-A3B, an open 30B MoE base that reportedly beats Qwen3-30B-A3B and, with 6B tokens of SFT and no RL, tops four agentic benchmarks on average.",
+      "engagement": {
+        "reactions": "78",
+        "comments": "5",
+        "reposts": "14"
+      }
+    },
+    {
+      "id": "b988582d89d9e36cb5f55a43",
+      "capture_orders": [
+        455
+      ],
+      "author": "Deccan AI",
+      "author_url": "https://www.linkedin.com/company/ai-deccan/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526231107533725696/",
+      "observed_on": "2026-11-13",
+      "liked_on": null,
+      "published_on": "2026-11-11",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Introduces CASTBench, a benchmark testing six reference-to-video models on animating a cast of characters from a story and reference sheets, graded by trained annotators with a fixed rubric across 317 stories.",
+      "external_links": [],
+      "published_at": "2026-11-11T10:35:26.648Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Introduces CASTBench, a benchmark testing six reference-to-video models on animating a cast of characters from a story and reference sheets, graded by trained annotators with a fixed rubric across 317 stories.",
+      "engagement": {
+        "reactions": "1",
+        "comments": null,
+        "reposts": null
+      }
+    },
+    {
+      "id": "04a46009e8c4d37f08d0b488",
+      "capture_orders": [
+        456
+      ],
+      "author": "Samuel G. Rodriques",
+      "author_url": "https://www.linkedin.com/in/samuel-g-rodriques-080a9b22/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7526330843485716480/",
+      "observed_on": "2026-11-13",
+      "liked_on": null,
+      "published_on": "2026-11-11",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Announces a 'deslopper' for Kosmos that teaches itself to write like a human expert in any domain; claims experts can't distinguish its outputs from human-written text.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/g9CvrrWQ",
+          "url": "https://lnkd.in/g9CvrrWQ"
+        },
+        {
+          "title": "Improving Scientific Writing by Learning from Good Examples",
+          "url": "https://advances.edisonscientific.com"
+        }
+      ],
+      "published_at": "2026-11-11T17:11:45.552Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Announces a 'deslopper' for Kosmos that teaches itself to write like a human expert in any domain; claims experts can't distinguish its outputs from human-written text.",
+      "engagement": {
+        "reactions": "250",
+        "comments": "9",
+        "reposts": "22"
+      }
+    },
+    {
+      "id": "f0c215caa7949b96ac460e18",
+      "capture_orders": [
+        457
+      ],
+      "author": "Pushmeet Kohli",
+      "author_url": "https://www.linkedin.com/in/pushmeet-kohli-4838994/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7526298852711120896/",
+      "observed_on": "2026-11-13",
+      "liked_on": null,
+      "published_on": "2026-11-11",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Introduces AlphaGenome 2, a cell-type-conditional genomics model predicting variant effects across hundreds of human cell types; reports nearly 2x more causal variants (30% vs 16%) and directional gene effects (43% vs 23%) than AlphaGenome on TenK10K, available for non-commercial research via the AlphaGenome API, with Skills coming to Google Antigravity.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/evwJj67N",
+          "url": "https://lnkd.in/evwJj67N"
+        },
+        {
+          "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+          "url": "https://deepmind.google"
+        }
+      ],
+      "published_at": "2026-11-11T15:04:38.357Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Introduces AlphaGenome 2, a cell-type-conditional genomics model predicting variant effects across hundreds of human cell types; reports nearly 2x more causal variants (30% vs 16%) and directional gene effects (43% vs 23%) than AlphaGenome on TenK10K, available for non-commercial research via the AlphaGenome API, with Skills coming to Google Antigravity.",
+      "engagement": {
+        "reactions": "1319",
+        "comments": "25",
+        "reposts": "103"
+      }
+    },
+    {
+      "id": "93e9305bf3093a3473a6b323",
+      "capture_orders": [
+        458
+      ],
+      "author": "Alex Dimakis",
+      "author_url": "https://www.linkedin.com/in/alex-dimakis-b1b20320/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7526097909856182272/",
+      "observed_on": "2026-11-13",
+      "liked_on": null,
+      "published_on": "2026-11-11",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Reshares Microsoft Research's Lazarus study (Dimitris Papailiopoulos): reprogramming fewer than 10 dormant neurons, with no training, backdoors any agent built on an LLM so it passes evals but runs attacker commands on a trigger (e.g. a date); says Claude Code with Opus 4.5 discovered most of this autonomously, and recommends strict provenance, scanning weights with frontier agents, and limiting agent access.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/dNcX7MW6",
+          "url": "https://lnkd.in/dNcX7MW6"
+        },
+        {
+          "title": "Shared link: lnkd.in/dsvzp9BV",
+          "url": "https://lnkd.in/dsvzp9BV"
+        },
+        {
+          "title": "Shared link: lnkd.in/d53r2T4T",
+          "url": "https://lnkd.in/d53r2T4T"
+        }
+      ],
+      "published_at": "2026-11-11T01:46:09.847Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Reshares Microsoft Research's Lazarus study (Dimitris Papailiopoulos): reprogramming fewer than 10 dormant neurons, with no training, backdoors any agent built on an LLM so it passes evals but runs attacker commands on a trigger (e.g. a date); says Claude Code with Opus 4.5 discovered most of this autonomously, and recommends strict provenance, scanning weights with frontier agents, and limiting agent access.",
+      "engagement": {
+        "reactions": "228",
+        "comments": "12",
+        "reposts": "12"
+      }
+    },
+    {
+      "id": "bf7c8dad2401aa4ef4f9d8fc",
+      "capture_orders": [
+        459
+      ],
+      "author": "Edward Xi Yang",
+      "author_url": "https://www.linkedin.com/in/edwardxiyang/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7525536130801303552/",
+      "observed_on": "2026-11-13",
+      "liked_on": null,
+      "published_on": "2026-11-09",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Launches MedErtas v0.1, open-weight medical models (31B on Gemma 4, 27B on Qwen 3.8) that reportedly outscore MedGemma 27B by up to 25% on 11 medical benchmarks and answer 8x faster via post-trained Perigee drafter models.",
+      "external_links": [],
+      "published_at": "2026-11-09T12:33:51.283Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Launches MedErtas v0.1, open-weight medical models (31B on Gemma 4, 27B on Qwen 3.8) that reportedly outscore MedGemma 27B by up to 25% on 11 medical benchmarks and answer 8x faster via post-trained Perigee drafter models.",
+      "engagement": {
+        "reactions": "426",
+        "comments": "109",
+        "reposts": "19"
+      }
+    },
+    {
+      "id": "1fe58e71b0c34feaa169ed2a",
+      "capture_orders": [
+        460
+      ],
+      "author": "Sergio Paniego Blanco",
+      "author_url": "https://www.linkedin.com/in/sergio-paniego-blanco/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7525943050821562370/",
+      "observed_on": "2026-11-13",
+      "liked_on": null,
+      "published_on": "2026-11-10",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Shares a TRL post-training example: a large model acts as a coding agent in OpenCode via OpenEnv, solved tasks become SFT data, and a 2B model goes from 5.5% to 34.4% on held-out tasks; about 500 traces give most of the gain (5x more adds only 3-4 points), so SFT gets the agent working and RL must do the rest.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/emqmcH6J",
+          "url": "https://lnkd.in/emqmcH6J"
+        }
+      ],
+      "published_at": "2026-11-10T15:30:48.576Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Shares a TRL post-training example: a large model acts as a coding agent in OpenCode via OpenEnv, solved tasks become SFT data, and a 2B model goes from 5.5% to 34.4% on held-out tasks; about 500 traces give most of the gain (5x more adds only 3-4 points), so SFT gets the agent working and RL must do the rest.",
+      "engagement": {
+        "reactions": "221",
+        "comments": "36",
+        "reposts": "10"
+      }
+    },
+    {
+      "id": "4ff402bb71ff06053982657e",
+      "capture_orders": [
+        461
+      ],
+      "author": "Jeffrey Ip",
+      "author_url": "https://www.linkedin.com/in/jeffreyipp/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7525542291957170176/",
+      "observed_on": "2026-11-13",
+      "liked_on": null,
+      "published_on": "2026-11-09",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Announces categorical LLM-as-a-judge in DeepEval: 20+ 'classifiers' that label agent behaviors (refusal/complied/partially refused, instruction completeness, response language) instead of scoring them.",
+      "external_links": [],
+      "published_at": "2026-11-09T12:58:20.217Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Announces categorical LLM-as-a-judge in DeepEval: 20+ 'classifiers' that label agent behaviors (refusal/complied/partially refused, instruction completeness, response language) instead of scoring them.",
+      "engagement": {
+        "reactions": "512",
+        "comments": "41",
+        "reposts": "31"
+      }
+    },
+    {
+      "id": "ccdaa5ed81229c67938cf42b",
+      "capture_orders": [
+        462
+      ],
+      "author": "Rohan Paul",
+      "author_url": "https://www.linkedin.com/in/rohan-paul-ai/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7525894975633580034/",
+      "observed_on": "2026-11-13",
+      "liked_on": null,
+      "published_on": "2026-11-10",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Summarizes an Nvidia and collaborators paper finding that irrelevant context hurts mainly by weakening the model's use of the question, via a small set of 'intrusion heads'; masking ~10 heads' attention to context recovered 57% of distractor-induced accuracy loss on average across 4 tasks on 7B-scale models (oracle fix: 97.6%).",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/dG-CBpst",
+          "url": "https://lnkd.in/dG-CBpst"
+        }
+      ],
+      "published_at": "2026-11-10T12:19:46.558Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Summarizes an Nvidia and collaborators paper finding that irrelevant context hurts mainly by weakening the model's use of the question, via a small set of 'intrusion heads'; masking ~10 heads' attention to context recovered 57% of distractor-induced accuracy loss on average across 4 tasks on 7B-scale models (oracle fix: 97.6%).",
+      "engagement": {
+        "reactions": "3",
+        "comments": "1",
+        "reposts": null
+      }
     }
   ]
 }
