@@ -12520,6 +12520,206 @@
         "comments": "1",
         "reposts": null
       }
+    },
+    {
+      "id": "67f0651b8db255c84029a490",
+      "capture_orders": [
+        463
+      ],
+      "author": "Pinxin Liu",
+      "author_url": "https://www.linkedin.com/in/pinxin-liu-8793891b5/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7527049426326966272/",
+      "observed_on": "2026-11-14",
+      "liked_on": null,
+      "published_on": "2026-11-13",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Argues academic robotics research has 2-3 years left, replaying what happened to academic NLP after ChatGPT: as robot models scale, labs lack compute and many models will be API-only; external benchmarks lag company iterations by ~6 months and real-world evaluation needs costly hardware, so academia should pool resources into shared, live, real-world eval infrastructure like Chatbot Arena.",
+      "external_links": [],
+      "published_at": "2026-11-13T16:47:09.052Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Argues academic robotics research has 2-3 years left, replaying what happened to academic NLP after ChatGPT: as robot models scale, labs lack compute and many models will be API-only; external benchmarks lag company iterations by ~6 months and real-world evaluation needs costly hardware, so academia should pool resources into shared, live, real-world eval infrastructure like Chatbot Arena.",
+      "engagement": {
+        "reactions": "141",
+        "comments": "6",
+        "reposts": "2"
+      }
+    },
+    {
+      "id": "410151f74c1252d6d5fb25eb",
+      "capture_orders": [
+        464
+      ],
+      "author": "Hao Hoang",
+      "author_url": "https://www.linkedin.com/in/hoang-van-hao/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7527173763637985280/",
+      "observed_on": "2026-11-14",
+      "liked_on": null,
+      "published_on": "2026-11-14",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Summarizes Microsoft's LongCapHarness paper (arXiv 2611.10463): a stronger model writes a harness splitting long-context tasks into 11 primitives, with code handling explicit-rule primitives and an 8K-window Llama3-8B handling judgment ones; reports 79.32 on long-context benchmarks with no training, Recall 100.00 from 8K to 128K, RULER 94.62, and RAG/LongQA on par with a long-context-trained model.",
+      "external_links": [
+        {
+          "title": "Author newsletter: aiinterviewprep.substack.com",
+          "url": "https://aiinterviewprep.substack.com"
+        }
+      ],
+      "published_at": "2026-11-14T01:01:13.377Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Summarizes Microsoft's LongCapHarness paper (arXiv 2611.10463): a stronger model writes a harness splitting long-context tasks into 11 primitives, with code handling explicit-rule primitives and an 8K-window Llama3-8B handling judgment ones; reports 79.32 on long-context benchmarks with no training, Recall 100.00 from 8K to 128K, RULER 94.62, and RAG/LongQA on par with a long-context-trained model.",
+      "engagement": {
+        "reactions": "501",
+        "comments": "23",
+        "reposts": "34"
+      }
+    },
+    {
+      "id": "527cd3e3b6b088bac8548749",
+      "capture_orders": [
+        465
+      ],
+      "author": "Linsha Chen",
+      "author_url": "https://www.linkedin.com/in/linshachen/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7527184113213161472/",
+      "observed_on": "2026-11-14",
+      "liked_on": null,
+      "published_on": "2026-11-14",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Hiring post: the author's data science team at OpenAI, which guides investment in marketing, lifecycle and partnerships across Consumer and Business, is growing.",
+      "external_links": [],
+      "published_at": "2026-11-14T01:42:20.908Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Hiring post: the author's data science team at OpenAI, which guides investment in marketing, lifecycle and partnerships across Consumer and Business, is growing.",
+      "engagement": {
+        "reactions": "257",
+        "comments": "10",
+        "reposts": "6"
+      }
+    },
+    {
+      "id": "387c81a6b363d0d7b0d88af0",
+      "capture_orders": [
+        466
+      ],
+      "author": "William Hu",
+      "author_url": "https://www.linkedin.com/in/william-hu/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7527102349971181570/",
+      "observed_on": "2026-11-14",
+      "liked_on": null,
+      "published_on": "2026-11-13",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Announces a blog post on claude.com, 'Building always-on agents', collecting Anthropic's recommended patterns for building always-on agent experiences into products.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/gtRsbnzu",
+          "url": "https://lnkd.in/gtRsbnzu"
+        },
+        {
+          "title": "Building always-on agents",
+          "url": "https://claude.com/resources/articles/building-always-on-agents"
+        },
+        {
+          "title": "Author portfolio: williamhu.com",
+          "url": "https://williamhu.com"
+        }
+      ],
+      "published_at": "2026-11-13T20:17:27.032Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Announces a blog post on claude.com, 'Building always-on agents', collecting Anthropic's recommended patterns for building always-on agent experiences into products.",
+      "engagement": {
+        "reactions": "744",
+        "comments": "64",
+        "reposts": "27"
+      }
+    },
+    {
+      "id": "8a6a6016e020a47318736f54",
+      "capture_orders": [
+        467
+      ],
+      "author": "Robert Nishihara",
+      "author_url": "https://www.linkedin.com/in/robert-nishihara-b6465444/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7527108791008382976/",
+      "observed_on": "2026-11-14",
+      "liked_on": null,
+      "published_on": "2026-11-13",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Shares a KubeCon talk by Kai-Hsun Chen and Hao Jiang on how Hark uses Ray and Kubernetes for data processing, training, evals and inference for computer-use agents and multimodal models across autoscaling, heterogeneous clusters.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/g4wuFb9U",
+          "url": "https://lnkd.in/g4wuFb9U"
+        },
+        {
+          "title": "Scaling Multi-Modal Models and Computer-Use Agents on Kubernetes - Kai-Hsun Chen & Hao Jiang, Hark",
+          "url": "https://www.youtube.com/watch?v=06JNFaNF5ng"
+        }
+      ],
+      "published_at": "2026-11-13T20:43:02.695Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Shares a KubeCon talk by Kai-Hsun Chen and Hao Jiang on how Hark uses Ray and Kubernetes for data processing, training, evals and inference for computer-use agents and multimodal models across autoscaling, heterogeneous clusters.",
+      "engagement": {
+        "reactions": "73",
+        "comments": "0",
+        "reposts": "3"
+      }
+    },
+    {
+      "id": "71c31304eead709f1c687471",
+      "capture_orders": [
+        468
+      ],
+      "author": "Juncheng Yang",
+      "author_url": "https://www.linkedin.com/in/junchengyang/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7526982642014162945/",
+      "observed_on": "2026-11-14",
+      "liked_on": null,
+      "published_on": "2026-11-13",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Says the publication system is collapsing: for the fifth time this semester he asked a student to remove his name from an AI-generated paper or delay submission to rewrite it, adding that the generated papers are better than many he reviews.",
+      "external_links": [],
+      "published_at": "2026-11-13T12:21:46.431Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Says the publication system is collapsing: for the fifth time this semester he asked a student to remove his name from an AI-generated paper or delay submission to rewrite it, adding that the generated papers are better than many he reviews.",
+      "engagement": {
+        "reactions": "323",
+        "comments": "24",
+        "reposts": "2"
+      }
+    },
+    {
+      "id": "61bf2c09e8bf74427a09f836",
+      "capture_orders": [
+        469
+      ],
+      "author": "Elvis Saravia",
+      "author_url": "https://www.linkedin.com/in/omarsar/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7527019207994019841/",
+      "observed_on": "2026-11-14",
+      "liked_on": null,
+      "published_on": "2026-11-13",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Highlights a paper on decision models for long-horizon agents: as actors on ALFWorld, all six models tested skipped required subgoals, but judging full trajectories they credited the skipped steps; used as a GRPO teacher, a decision model lifted a Qwen2.5-1.5B policy from 72.8% to 82.9% on ALFWorld and 56.8% to 71.4% on WebShop.",
+      "external_links": [
+        {
+          "title": "Author website: linktr.ee/elvissaravia",
+          "url": "https://linktr.ee/elvissaravia"
+        }
+      ],
+      "published_at": "2026-11-13T14:47:04.440Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Highlights a paper on decision models for long-horizon agents: as actors on ALFWorld, all six models tested skipped required subgoals, but judging full trajectories they credited the skipped steps; used as a GRPO teacher, a decision model lifted a Qwen2.5-1.5B policy from 72.8% to 82.9% on ALFWorld and 56.8% to 71.4% on WebShop.",
+      "engagement": {
+        "reactions": "82",
+        "comments": "10",
+        "reposts": "14"
+      }
     }
   ]
 }
