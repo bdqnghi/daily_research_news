@@ -12915,6 +12915,101 @@
         "comments": "6",
         "reposts": "2"
       }
+    },
+    {
+      "id": "d9b885b069879a576b46ad6c",
+      "capture_orders": [
+        477
+      ],
+      "author": "Hamel Husain",
+      "author_url": "https://www.linkedin.com/in/hamelhusain/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7528139913700028416/",
+      "observed_on": "2026-11-17",
+      "liked_on": null,
+      "published_on": "2026-11-16",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Announces the book 'Evals for AI Engineers' (with co-author) and outlines its 12 chapters, from error analysis (called the most important chapter) and LLM judges validated against human labels to multi-turn, RAG and tool-use/agent evals, CI/CD deployment of evals, trace-review interfaces, and using evals to improve accuracy and cost.",
+      "external_links": [
+        {
+          "title": "Evals for AI Engineers | Shreya Shankar & Hamel Husain",
+          "url": "https://ai-evals.com/"
+        }
+      ],
+      "published_at": "2026-11-16T17:00:21.502Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Announces the book 'Evals for AI Engineers' (with co-author) and outlines its 12 chapters, from error analysis (called the most important chapter) and LLM judges validated against human labels to multi-turn, RAG and tool-use/agent evals, CI/CD deployment of evals, trace-review interfaces, and using evals to improve accuracy and cost.",
+      "engagement": {
+        "reactions": "2686",
+        "comments": "146",
+        "reposts": "70"
+      }
+    },
+    {
+      "id": "02406cefb6d5a87993bcaf4f",
+      "capture_orders": [
+        478
+      ],
+      "author": "Together AI",
+      "author_url": "https://www.linkedin.com/company/togethercomputer/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7528257227208634369/",
+      "observed_on": "2026-11-17",
+      "liked_on": null,
+      "published_on": "2026-11-17",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Says agent harnesses force the model to reread the whole session each step, and prefix caching keeps that fast only if the prompt prefix stays stable and the inference engine routes each turn back to the machine holding the cache; links a write-up by Zain Hasan (Together) and Parth Sareen (Ollama) on what harness and engine each need to get right.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/ghNv65m8",
+          "url": "https://lnkd.in/ghNv65m8"
+        },
+        {
+          "title": "Making open models work for long-horizon agentic workloads",
+          "url": "https://www.together.ai/blog/making-open-models-work-for-long-horizon-agentic-workloads"
+        }
+      ],
+      "published_at": "2026-11-17T00:46:31.222Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Says agent harnesses force the model to reread the whole session each step, and prefix caching keeps that fast only if the prompt prefix stays stable and the inference engine routes each turn back to the machine holding the cache; links a write-up by Zain Hasan (Together) and Parth Sareen (Ollama) on what harness and engine each need to get right.",
+      "engagement": {
+        "reactions": "39",
+        "comments": "4",
+        "reposts": "5"
+      }
+    },
+    {
+      "id": "dc2fdaaae4967cc372c1fc67",
+      "capture_orders": [
+        479
+      ],
+      "author": "Spencer Mateega",
+      "author_url": "https://www.linkedin.com/in/spencermateega/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7528175512339447810/",
+      "observed_on": "2026-11-17",
+      "liked_on": null,
+      "published_on": "2026-11-16",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "AfterQuery's CEO says training data is increasingly produced by humans and models together, so data vendors must show what produced their data; AfterQuery publishes its closed-model policy, how it enforces it, and a call for responsible training-data production.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/gdq8hqTR",
+          "url": "https://lnkd.in/gdq8hqTR"
+        },
+        {
+          "title": "A Call for Responsible Training Data Production - AfterQuery",
+          "url": "https://www.afterquery.com/blog/a-call-for-responsible-training-data-production"
+        }
+      ],
+      "published_at": "2026-11-16T19:21:48.879Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "AfterQuery's CEO says training data is increasingly produced by humans and models together, so data vendors must show what produced their data; AfterQuery publishes its closed-model policy, how it enforces it, and a call for responsible training-data production.",
+      "engagement": {
+        "reactions": "105",
+        "comments": "8",
+        "reposts": "4"
+      }
     }
   ]
 }
