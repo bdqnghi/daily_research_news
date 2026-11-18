@@ -13010,6 +13010,59 @@
         "comments": "8",
         "reposts": "4"
       }
+    },
+    {
+      "id": "14bcae091ebaef9b17b5c31e",
+      "capture_orders": [
+        480
+      ],
+      "author": "Abundant",
+      "author_url": "https://www.linkedin.com/company/abundant-ai/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7528589902255468545/",
+      "observed_on": "2026-11-18",
+      "liked_on": null,
+      "published_on": "2026-11-17",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Abundant says research-agent benchmarks need realistic targets; each task ships a validation notebook showing the signal exists, reviewed by a domain expert, illustrated with case studies in drug discovery, antibody discovery and GPU-kernel optimization.",
+      "external_links": [
+        {
+          "title": "How we set realistic targets for research tasks",
+          "url": "https://lnkd.in/gEw3njRP"
+        }
+      ],
+      "published_at": "2026-11-17T22:48:27.134Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Abundant says research-agent benchmarks need realistic targets; each task ships a validation notebook showing the signal exists, reviewed by a domain expert, illustrated with case studies in drug discovery, antibody discovery and GPU-kernel optimization.",
+      "engagement": {
+        "reactions": "25",
+        "comments": "0",
+        "reposts": "1"
+      }
+    },
+    {
+      "id": "be4ec892121520e96f5db2c8",
+      "capture_orders": [
+        481
+      ],
+      "author": "DAIR.AI",
+      "author_url": "https://www.linkedin.com/company/dair-ai/",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7528572441158242306/",
+      "observed_on": "2026-11-18",
+      "liked_on": null,
+      "published_on": "2026-11-17",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "DAIR.AI highlights an Amazon paper, CompoundingKernel, which reports writing GPU kernels from scratch with 1,000+ agents: 235 problems with verified kernels, first place on SOL-ExecBench public L1/L2/Quantization boards on B200, 4.40x over baseline; an LLM controller over an external archive beat UCB tree search on 35 of 38 problems.",
+      "external_links": [],
+      "published_at": "2026-11-17T21:39:04.084Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "DAIR.AI highlights an Amazon paper, CompoundingKernel, which reports writing GPU kernels from scratch with 1,000+ agents: 235 problems with verified kernels, first place on SOL-ExecBench public L1/L2/Quantization boards on B200, 4.40x over baseline; an LLM controller over an external archive beat UCB tree search on 35 of 38 problems.",
+      "engagement": {
+        "reactions": "97",
+        "comments": "5",
+        "reposts": "15"
+      }
     }
   ]
 }
