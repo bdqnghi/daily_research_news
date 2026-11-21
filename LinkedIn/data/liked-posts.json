@@ -13277,6 +13277,145 @@
         "comments": "13",
         "reposts": "25"
       }
+    },
+    {
+      "id": "ac24bad33ceb9a4ca55223f8",
+      "capture_orders": [
+        489
+      ],
+      "author": "DAIR.AI",
+      "author_url": "https://www.linkedin.com/company/dair-ai/",
+      "post_url": "https://www.linkedin.com/posts/brilliant-work-from-google-and-colleagues-share-7529683768861884416-qZQZ/",
+      "observed_on": "2026-11-21",
+      "liked_on": null,
+      "published_on": "2026-11-20",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "DAIR.AI highlights Pro² Agent from Google and colleagues, which it says reaches a 76.0% medal rate on the full MLE-Bench with 48 hours (matching the best reported 70.7% at 24 hours) by keeping a structured 'Problem State' of blocking problems and candidate fixes, updated through controlled tests.",
+      "external_links": [
+        {
+          "title": "Pro² Agent: Scientific Problem Probing for Autonomous AI R&D",
+          "url": "https://academy.dair.ai/papers/pro-2-agent-scientific-problem-probing-for-autonomous-ai-r-d-2611.25357"
+        }
+      ],
+      "published_at": "2026-11-20T23:15:05.256Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "DAIR.AI highlights Pro² Agent from Google and colleagues, which it says reaches a 76.0% medal rate on the full MLE-Bench with 48 hours (matching the best reported 70.7% at 24 hours) by keeping a structured 'Problem State' of blocking problems and candidate fixes, updated through controlled tests.",
+      "engagement": {
+        "reactions": "120",
+        "comments": "2",
+        "reposts": "15"
+      }
+    },
+    {
+      "id": "3e50f3cbd34fd102f6376e98",
+      "capture_orders": [
+        490
+      ],
+      "author": "Abhik Roychoudhury",
+      "author_url": "https://www.linkedin.com/in/abhik-roychoudhury-189352137/",
+      "post_url": "https://www.linkedin.com/posts/abhik-roychoudhury-189352137_just-this-week-i-was-attending-an-online-share-7529559332632375297-_XPR/",
+      "observed_on": "2026-11-21",
+      "liked_on": null,
+      "published_on": "2026-11-20",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Abhik Roychoudhury (NUS) reflects on 'publish less, do more': since about 2014-15 his group's PhD criterion is one paper whose significance the student can justify, and he describes moving his group to NUS Enterprise (NUSX) to work at the juncture of research and innovation.",
+      "external_links": [
+        {
+          "title": "Trustworthy and Secure Software (TSS) @ NUS",
+          "url": "https://nus-tss.github.io/"
+        },
+        {
+          "title": "Shared link: lnkd.in/gmZ43adE",
+          "url": "https://lnkd.in/gmZ43adE"
+        }
+      ],
+      "published_at": "2026-11-20T15:00:37.347Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Abhik Roychoudhury (NUS) reflects on 'publish less, do more': since about 2014-15 his group's PhD criterion is one paper whose significance the student can justify, and he describes moving his group to NUS Enterprise (NUSX) to work at the juncture of research and innovation.",
+      "engagement": {
+        "reactions": "124",
+        "comments": "3",
+        "reposts": "3"
+      }
+    },
+    {
+      "id": "3db96201f1b5e0e76501b9c9",
+      "capture_orders": [
+        491
+      ],
+      "author": "Pascal Biese",
+      "author_url": "https://www.linkedin.com/in/pascalbiese/",
+      "post_url": "https://www.linkedin.com/posts/pascalbiese_memory-agents-have-a-hard-time-adapting-share-7529516209403310080-bnzh/",
+      "observed_on": "2026-11-21",
+      "liked_on": null,
+      "published_on": "2026-11-20",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Pascal Biese summarizes an eBay / University of Chicago paper on 'Experience Rot': agents with stored experience reuse outdated tool calls after an API changes; with partial instructions they succeed on about a quarter of tasks versus nearly two thirds for agents with no experience, and the effect grows with past tasks.",
+      "external_links": [
+        {
+          "title": "Experience Rot: Experienced Agents Fail Where Novices Succeed",
+          "url": "https://arxiv.org/abs/2611.20922v1"
+        }
+      ],
+      "published_at": "2026-11-20T12:09:15.968Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Pascal Biese summarizes an eBay / University of Chicago paper on 'Experience Rot': agents with stored experience reuse outdated tool calls after an API changes; with partial instructions they succeed on about a quarter of tasks versus nearly two thirds for agents with no experience, and the effect grows with past tasks.",
+      "engagement": {
+        "reactions": "19",
+        "comments": "7",
+        "reposts": "2"
+      }
+    },
+    {
+      "id": "51fd6105febd26763dda59c1",
+      "capture_orders": [
+        492
+      ],
+      "author": "Daniela Amodei",
+      "author_url": "https://www.linkedin.com/in/daniela-amodei-790bb22a/",
+      "post_url": "https://www.linkedin.com/posts/daniela-amodei-790bb22a_sharing-my-remarks-at-nasdaq-today-ugcPost-7529215240534753280-85pI/",
+      "observed_on": "2026-11-21",
+      "liked_on": null,
+      "published_on": "2026-11-19",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Daniela Amodei (President, Anthropic) shares her remarks at Nasdaq as an attached document.",
+      "external_links": [],
+      "published_at": "2026-11-19T16:13:19.398Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Daniela Amodei (President, Anthropic) shares her remarks at Nasdaq as an attached document.",
+      "engagement": {
+        "reactions": "8178",
+        "comments": "581",
+        "reposts": "262"
+      }
+    },
+    {
+      "id": "f178a76e3f3eca470be40053",
+      "capture_orders": [
+        493
+      ],
+      "author": "Steve Aoki",
+      "author_url": "https://www.linkedin.com/in/steve-aoki/",
+      "post_url": "https://www.linkedin.com/posts/steve-aoki_i-found-a-job-ugcPost-7529333683674202112-Oa4R/",
+      "observed_on": "2026-11-21",
+      "liked_on": null,
+      "published_on": "2026-11-20",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Steve Aoki announces, in a Wispr Flow brand partnership post, that he 'found a job' as Chief Beats Officer at Wispr Flow.",
+      "external_links": [],
+      "published_at": "2026-11-20T00:03:58.443Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Steve Aoki announces, in a Wispr Flow brand partnership post, that he 'found a job' as Chief Beats Officer at Wispr Flow.",
+      "engagement": {
+        "reactions": "5101",
+        "comments": "271",
+        "reposts": "153"
+      }
     }
   ]
 }
