@@ -13291,7 +13291,7 @@
       "published_on": "2026-11-20",
       "published_age": null,
       "reaction": "Like",
-      "summary": "DAIR.AI highlights Pro² Agent from Google and colleagues, which it says reaches a 76.0% medal rate on the full MLE-Bench with 48 hours (matching the best reported 70.7% at 24 hours) by keeping a structured 'Problem State' of blocking problems and candidate fixes, updated through controlled tests.",
+      "summary": "DAIR.AI highlights Pro² Agent from Google and colleagues, which it says matches the best reported 70.7% medal rate on the full MLE-Bench in a 24-hour run and reaches 76.0% in a 48-hour run, by keeping a structured 'Problem State' of blocking problems and candidate fixes updated through controlled tests.",
       "external_links": [
         {
           "title": "Pro² Agent: Scientific Problem Probing for Autonomous AI R&D",
@@ -13300,7 +13300,7 @@
       ],
       "published_at": "2026-11-20T23:15:05.256Z",
       "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
-      "details": "DAIR.AI highlights Pro² Agent from Google and colleagues, which it says reaches a 76.0% medal rate on the full MLE-Bench with 48 hours (matching the best reported 70.7% at 24 hours) by keeping a structured 'Problem State' of blocking problems and candidate fixes, updated through controlled tests.",
+      "details": "DAIR.AI highlights Pro² Agent from Google and colleagues, which it says matches the best reported 70.7% medal rate on the full MLE-Bench in a 24-hour run and reaches 76.0% in a 48-hour run, by keeping a structured 'Problem State' of blocking problems and candidate fixes updated through controlled tests.",
       "engagement": {
         "reactions": "120",
         "comments": "2",
