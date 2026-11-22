@@ -13416,6 +13416,39 @@
         "comments": "271",
         "reposts": "153"
       }
+    },
+    {
+      "id": "016529c659577228532defce",
+      "capture_orders": [
+        494
+      ],
+      "author": "Guohao Li",
+      "author_url": "https://www.linkedin.com/in/guohao-li-9a573b136/",
+      "post_url": "https://www.linkedin.com/posts/guohao-li-9a573b136_agentic-rl-is-becoming-one-of-the-most-important-share-7529977128063225856-K3Ps/",
+      "observed_on": "2026-11-22",
+      "liked_on": null,
+      "published_on": "2026-11-21",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Guohao Li (Eigent AI / CAMEL-AI) shares Kaggle and Eigent AI's AgenticRL-Bench, which tests whether coding agents can diagnose and fix real incidents across the agentic RL stack (Miles, slime, verl, SGLang, Megatron, Harbor). Per the post, the Kaggle leaderboard scores 19 verifiable tasks out of 22, with GPT-6.1 Sol leading at 22.8%, and 7 of the 22 tasks trip lab safety classifiers.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/g94g2Qb6",
+          "url": "https://lnkd.in/g94g2Qb6"
+        },
+        {
+          "title": "Shared link: lnkd.in/ey_YXKPa",
+          "url": "https://lnkd.in/ey_YXKPa"
+        }
+      ],
+      "published_at": "2026-11-21T18:40:47.540Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Guohao Li (Eigent AI / CAMEL-AI) shares Kaggle and Eigent AI's AgenticRL-Bench, which tests whether coding agents can diagnose and fix real incidents across the agentic RL stack (Miles, slime, verl, SGLang, Megatron, Harbor). Per the post, the Kaggle leaderboard scores 19 verifiable tasks out of 22, with GPT-6.1 Sol leading at 22.8%, and 7 of the 22 tasks trip lab safety classifiers.",
+      "engagement": {
+        "reactions": "31",
+        "comments": "2",
+        "reposts": "1"
+      }
     }
   ]
 }
