@@ -13449,6 +13449,235 @@
         "comments": "2",
         "reposts": "1"
       }
+    },
+    {
+      "id": "817fcf74f58aa3500b5289c8",
+      "capture_orders": [
+        495
+      ],
+      "author": "Sahil Goyal",
+      "author_url": "https://www.linkedin.com/in/sahil-goyal-4222371b4/",
+      "post_url": "https://www.linkedin.com/posts/sahil-goyal-4222371b4_im-back-at-google-deepmind-as-a-research-share-7530292765943943168-Aick/",
+      "observed_on": "2026-11-23",
+      "liked_on": null,
+      "published_on": "2026-11-22",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Sahil Goyal says he has rejoined Google DeepMind in London as a Research Engineer; after working on pretraining, vision and efficient ML across Veo and Gemini as an AI Resident, he is pivoting to continual learning and agent memory.",
+      "external_links": [],
+      "published_at": "2026-11-22T15:35:01.475Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Sahil Goyal says he has rejoined Google DeepMind in London as a Research Engineer; after working on pretraining, vision and efficient ML across Veo and Gemini as an AI Resident, he is pivoting to continual learning and agent memory.",
+      "engagement": {
+        "reactions": "1193",
+        "comments": "15",
+        "reposts": "1"
+      }
+    },
+    {
+      "id": "52d11117931019321bc81c39",
+      "capture_orders": [
+        496
+      ],
+      "author": "Raghvender Arni",
+      "author_url": "https://www.linkedin.com/in/rarni/",
+      "post_url": "https://www.linkedin.com/posts/rarni_%F0%9D%97%A7%F0%9D%97%9F%F0%9D%97%97%F0%9D%97%A5-googles-gemini-4-neon-is-winning-share-7530341771554476032-qFdp/",
+      "observed_on": "2026-11-23",
+      "liked_on": null,
+      "published_on": "2026-11-22",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Raghvender Arni (Google) describes Gemini 4 Neon as ranking #1 on coding-agent benchmarks at low cost, and Antigravity's /boost, /swarm and /teamwork modes; he cites a Google Research blog reporting /teamwork rewrote 170,000 lines of C++ to Rust, built TPU kernels with up to 15x speedups, and cut Borg TPU preemptions by 24%, and shares his own /swarm Python-to-C++ port.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/gJVWZANP",
+          "url": "https://lnkd.in/gJVWZANP"
+        },
+        {
+          "title": "Shared link: lnkd.in/g3dardJr",
+          "url": "https://lnkd.in/g3dardJr"
+        },
+        {
+          "title": "Shared link: lnkd.in/ggyva6Mv",
+          "url": "https://lnkd.in/ggyva6Mv"
+        },
+        {
+          "title": "Shared link: lnkd.in/gZTyU7_i",
+          "url": "https://lnkd.in/gZTyU7_i"
+        }
+      ],
+      "published_at": "2026-11-22T18:49:45.323Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Raghvender Arni (Google) describes Gemini 4 Neon as ranking #1 on coding-agent benchmarks at low cost, and Antigravity's /boost, /swarm and /teamwork modes; he cites a Google Research blog reporting /teamwork rewrote 170,000 lines of C++ to Rust, built TPU kernels with up to 15x speedups, and cut Borg TPU preemptions by 24%, and shares his own /swarm Python-to-C++ port.",
+      "engagement": {
+        "reactions": "698",
+        "comments": "51",
+        "reposts": "53"
+      }
+    },
+    {
+      "id": "998b3907a1493d775f581e2d",
+      "capture_orders": [
+        497
+      ],
+      "author": "LE Minh Duc",
+      "author_url": "https://www.linkedin.com/in/lemd/",
+      "post_url": "https://www.linkedin.com/posts/lemd_google-googlecloud-ugcPost-7530273174987399168-ehMN/",
+      "observed_on": "2026-11-23",
+      "liked_on": null,
+      "published_on": "2026-11-22",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "LE Minh Duc announces joining Google Cloud in Vietnam as a Customer Engineer (Platform), citing years building on Google Cloud data services such as BigQuery.",
+      "external_links": [],
+      "published_at": "2026-11-22T14:17:10.627Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "LE Minh Duc announces joining Google Cloud in Vietnam as a Customer Engineer (Platform), citing years building on Google Cloud data services such as BigQuery.",
+      "engagement": {
+        "reactions": "204",
+        "comments": "16"
+      }
+    },
+    {
+      "id": "34255aa0d3d7e817f149693a",
+      "capture_orders": [
+        498
+      ],
+      "author": "Deccan AI",
+      "author_url": "https://www.linkedin.com/company/ai-deccan/",
+      "post_url": "https://www.linkedin.com/posts/captionbench-ugcPost-7526228036392738816-0oF1/",
+      "observed_on": "2026-11-23",
+      "liked_on": null,
+      "published_on": "2026-11-11",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Deccan AI introduces CaptionBench, a benchmark in which trained reviewers rewrote and graded captions from six video-captioning models against the footage, comparing those corrections with leaderboard scores (details in an attached 6-page document).",
+      "external_links": [],
+      "published_at": "2026-11-11T10:23:14.431Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Deccan AI introduces CaptionBench, a benchmark in which trained reviewers rewrote and graded captions from six video-captioning models against the footage, comparing those corrections with leaderboard scores (details in an attached 6-page document).",
+      "engagement": {
+        "reactions": "1"
+      }
+    },
+    {
+      "id": "121bb8c678b59b5c6a3bfa08",
+      "capture_orders": [
+        499
+      ],
+      "author": "Hao Hoang",
+      "author_url": "https://www.linkedin.com/in/hoang-van-hao/",
+      "post_url": "https://www.linkedin.com/posts/hoang-van-hao_google-tuned-an-agent-harness-on-claude-opus-share-7528592151631331328-FJws/",
+      "observed_on": "2026-11-23",
+      "liked_on": null,
+      "published_on": "2026-11-17",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Hao Hoang summarizes a Google paper (arXiv 2611.18856, 'Self-Improvement Memory Enables Continual Recursive Self-Improvement'): a harness tuned on Claude Opus 5.5 underperformed on Gemini, and a 'Self-Improvement Memory' notebook logging each harness edit's target, rationale, predicted fixes and outcome raised workspace-task scores from 73.42 to 84.75 and improved 9 of 10 coding runs (+2.36 points, p = 0.003), though it trailed a fresh run by 0.8 on Gemini 4 Argon.",
+      "external_links": [
+        {
+          "title": "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
+          "url": "https://arxiv.org/abs/2611.18856"
+        }
+      ],
+      "published_at": "2026-11-17T22:57:23.427Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Hao Hoang summarizes a Google paper (arXiv 2611.18856, 'Self-Improvement Memory Enables Continual Recursive Self-Improvement'): a harness tuned on Claude Opus 5.5 underperformed on Gemini, and a 'Self-Improvement Memory' notebook logging each harness edit's target, rationale, predicted fixes and outcome raised workspace-task scores from 73.42 to 84.75 and improved 9 of 10 coding runs (+2.36 points, p = 0.003), though it trailed a fresh run by 0.8 on Gemini 4 Argon.",
+      "engagement": {
+        "reactions": "240",
+        "comments": "10",
+        "reposts": "10"
+      }
+    },
+    {
+      "id": "6b21f929eb6d239006cee94f",
+      "capture_orders": [
+        500
+      ],
+      "author": "Elvis Saravia",
+      "author_url": "https://www.linkedin.com/in/omarsar/",
+      "post_url": "https://www.linkedin.com/posts/omarsar_banger-paper-from-google-on-ml-engineering-share-7530350658399666177-cycu/",
+      "observed_on": "2026-11-23",
+      "liked_on": null,
+      "published_on": "2026-11-22",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Elvis Saravia highlights a Google paper, BuggyMLE, where agents inject controlled bugs into 222 ML repositories to make harder tasks; per the post, a Code Complexity Index predicts solve rates across eight benchmarks (R^2 = 0.951), the best of 14 models falls from 95% to 9% across difficulty tiers on MLE-Bench Lite, and a Qwen3.5-9B trained on the bug curriculum raises SWE-bench Lite from 24% to 33%.",
+      "external_links": [],
+      "published_at": "2026-11-22T19:25:04.112Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Elvis Saravia highlights a Google paper, BuggyMLE, where agents inject controlled bugs into 222 ML repositories to make harder tasks; per the post, a Code Complexity Index predicts solve rates across eight benchmarks (R^2 = 0.951), the best of 14 models falls from 95% to 9% across difficulty tiers on MLE-Bench Lite, and a Qwen3.5-9B trained on the bug curriculum raises SWE-bench Lite from 24% to 33%.",
+      "engagement": {
+        "reactions": "92",
+        "comments": "8",
+        "reposts": "9"
+      }
+    },
+    {
+      "id": "2fd6cea336c7fdc1527f8e6f",
+      "capture_orders": [
+        501
+      ],
+      "author": "Lewis Tunstall",
+      "author_url": "https://www.linkedin.com/in/lewis-tunstall/",
+      "post_url": "https://www.linkedin.com/posts/lewis-tunstall_i-gave-a-talk-to-physicists-on-the-potted-share-7530256710142427136-wopu/",
+      "observed_on": "2026-11-23",
+      "liked_on": null,
+      "published_on": "2026-11-22",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Lewis Tunstall (Hugging Face) shares slides from a talk to physicists on the history from LLMs to agent swarms: scaling laws, reasoning models, coding agents and harnesses, autoresearch, and communication for steering/training swarms.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/ebegiSSB",
+          "url": "https://lnkd.in/ebegiSSB"
+        }
+      ],
+      "published_at": "2026-11-22T13:11:45.102Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Lewis Tunstall (Hugging Face) shares slides from a talk to physicists on the history from LLMs to agent swarms: scaling laws, reasoning models, coding agents and harnesses, autoresearch, and communication for steering/training swarms.",
+      "engagement": {
+        "reactions": "454",
+        "comments": "6",
+        "reposts": "32"
+      }
+    },
+    {
+      "id": "4a60c2307ed9cce73b1c2a1d",
+      "capture_orders": [
+        502
+      ],
+      "author": "Meghana Aparna Sistla",
+      "author_url": "https://www.linkedin.com/in/meghana-aparna-sistla/",
+      "post_url": "https://www.linkedin.com/posts/meghana-aparna-sistla_aiagents-aisafety-aisecurity-share-7530455077828853760-WDyt/",
+      "observed_on": "2026-11-23",
+      "liked_on": null,
+      "published_on": "2026-11-23",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Meghana Aparna Sistla (Google DeepMind) presents Tether, a verified stateful policy engine that sandboxes each coding-agent command, infers actions from system calls, tracks sensitivity labels, and checks them against a Lean 4 policy; the authors report it blocks 100% of attacks on modeled trajectories in MonitoringBenchHonest and LinuxArena with a 2.3-5.0% false-positive rate.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/gX3vvBfD",
+          "url": "https://lnkd.in/gX3vvBfD"
+        },
+        {
+          "title": "Shared link: lnkd.in/gBTmthUj",
+          "url": "https://lnkd.in/gBTmthUj"
+        },
+        {
+          "title": "Shared link: lnkd.in/geY5g4CC",
+          "url": "https://lnkd.in/geY5g4CC"
+        }
+      ],
+      "published_at": "2026-11-23T02:19:59.644Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Meghana Aparna Sistla (Google DeepMind) presents Tether, a verified stateful policy engine that sandboxes each coding-agent command, infers actions from system calls, tracks sensitivity labels, and checks them against a Lean 4 policy; the authors report it blocks 100% of attacks on modeled trajectories in MonitoringBenchHonest and LinuxArena with a 2.3-5.0% false-positive rate.",
+      "engagement": {
+        "reactions": "74",
+        "comments": "5",
+        "reposts": "4"
+      }
     }
   ]
 }

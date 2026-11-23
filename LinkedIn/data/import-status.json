@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observed_on": "2026-11-22",
+  "observed_on": "2026-11-23",
   "observations": [
     {
       "observed_on": "2026-10-24",
@@ -67,6 +67,12 @@
       "observed_activity_items": 1,
       "post_like_observations": 1,
       "note": "Incremental likes import. Per-post observed_on on this record matches this batch."
+    },
+    {
+      "observed_on": "2026-11-23",
+      "observed_activity_items": 8,
+      "post_like_observations": 8,
+      "note": "Incremental likes import. Per-post observed_on on these 8 records matches this batch."
     }
   ],
   "timezone": "America/Los_Angeles",
@@ -74,9 +80,9 @@
   "source_url": "https://www.linkedin.com/in/quocnghi/recent-activity/reactions/",
   "requested_reaction_year": 2026,
   "coverage": "partial",
-  "observed_activity_items": 494,
-  "post_like_observations": 493,
-  "post_summaries": 493,
+  "observed_activity_items": 502,
+  "post_like_observations": 501,
+  "post_summaries": 501,
   "identical_content_groups": [
     {
       "id": "1b037d71306bcc0b7be62118",
@@ -95,7 +101,7 @@
       "status": "Distinct original post permalinks verified; both posts retained separately with their own publication dates."
     }
   ],
-  "post_urls_captured": 493,
+  "post_urls_captured": 501,
   "exact_reaction_dates_available": false,
   "displayed_publication_age_range": [
     "6h",
@@ -124,10 +130,10 @@
     "Audit the expanded archive against all 2026 Like events."
   ],
   "date_basis": "post_publication_utc",
-  "publication_dates_resolved": 493,
+  "publication_dates_resolved": 501,
   "publication_dates_pending": 0,
-  "daily_note_count": 126,
-  "detailed_summaries": 493,
+  "daily_note_count": 128,
+  "detailed_summaries": 501,
   "publication_date_method": "Unix-millisecond timestamp encoded in original LinkedIn post ID (integer ID shifted right 22 bits), grouped by UTC publication day.",
   "exact_reaction_dates_required_for_daily_grouping": false
 }
