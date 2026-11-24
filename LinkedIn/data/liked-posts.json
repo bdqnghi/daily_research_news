@@ -13678,6 +13678,373 @@
         "comments": "5",
         "reposts": "4"
       }
+    },
+    {
+      "id": "37d485dbe6913a89b569a3e4",
+      "capture_orders": [
+        503
+      ],
+      "author": "Abhik Roychoudhury",
+      "author_url": "https://www.linkedin.com/in/abhik-roychoudhury-189352137/",
+      "post_url": "https://www.linkedin.com/posts/abhik-roychoudhury-189352137_pre-qed-agentic-verification-cannot-use-ugcPost-7526436046201389056-QHMJ/",
+      "observed_on": "2026-11-24",
+      "liked_on": null,
+      "published_on": "2026-11-12",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Abhik Roychoudhury (NUS) argues that agentic formal verification cannot simply reuse fuzzing harnesses, since a fuzz harness covers one API-call sequence and calling context; his team's Pre-QED effort proposes verification harnesses built from deeper specifications of the software environment.",
+      "external_links": [
+        {
+          "title": "Pre-QED: Environment Specifications for Agentic Verification",
+          "url": "https://pre-qed.github.io"
+        }
+      ],
+      "published_at": "2026-11-12T00:09:47.834Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Abhik Roychoudhury (NUS) argues that agentic formal verification cannot simply reuse fuzzing harnesses, since a fuzz harness covers one API-call sequence and calling context; his team's Pre-QED effort proposes verification harnesses built from deeper specifications of the software environment.",
+      "engagement": {
+        "reactions": "47",
+        "comments": "1",
+        "reposts": "2"
+      }
+    },
+    {
+      "id": "07d146a2014079b333814eb3",
+      "capture_orders": [
+        504
+      ],
+      "author": "Sahil kapoor",
+      "author_url": "https://www.linkedin.com/in/sahil-kapoor25/",
+      "post_url": "https://www.linkedin.com/posts/sahil-kapoor25_google-just-solved-one-of-the-biggest-headaches-share-7530656439183482881-5-_m/",
+      "observed_on": "2026-11-24",
+      "liked_on": null,
+      "published_on": "2026-11-23",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Sahil Kapoor describes Google's Agent Substrate, which he says has been donated to the CNCF, as a Kubernetes approach to running mostly idle AI agents without keeping a dedicated pod per agent or paying long cold starts on resume.",
+      "external_links": [],
+      "published_at": "2026-11-23T15:40:07.932Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Sahil Kapoor describes Google's Agent Substrate, which he says has been donated to the CNCF, as a Kubernetes approach to running mostly idle AI agents without keeping a dedicated pod per agent or paying long cold starts on resume.",
+      "engagement": {
+        "reactions": "381",
+        "comments": "69",
+        "reposts": "18"
+      }
+    },
+    {
+      "id": "906690aa02f92a490876bef4",
+      "capture_orders": [
+        505
+      ],
+      "author": "Sebastian Raschka, PhD",
+      "author_url": "https://www.linkedin.com/in/sebastianraschka/",
+      "post_url": "https://www.linkedin.com/posts/sebastianraschka_pre-training-is-still-not-plateauing-finally-share-7530419578179502080-e0tU/",
+      "observed_on": "2026-11-24",
+      "liked_on": null,
+      "published_on": "2026-11-22",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Sebastian Raschka says newly shared OpenAI data supports his view that pre-training is not plateauing; he frames pre-training as supplying knowledge, post-training (SFT and RLVR) as unlocking access to it, and the harness as applying it, noting the chart reports log-perplexity rather than task success.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/gEYycQC5",
+          "url": "https://lnkd.in/gEYycQC5"
+        }
+      ],
+      "published_at": "2026-11-22T23:58:55.868Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Sebastian Raschka says newly shared OpenAI data supports his view that pre-training is not plateauing; he frames pre-training as supplying knowledge, post-training (SFT and RLVR) as unlocking access to it, and the harness as applying it, noting the chart reports log-perplexity rather than task success.",
+      "engagement": {
+        "reactions": "723",
+        "comments": "45",
+        "reposts": "28"
+      }
+    },
+    {
+      "id": "2d6bad94a919770c0db2696b",
+      "capture_orders": [
+        506
+      ],
+      "author": "DAIR.AI",
+      "author_url": "https://www.linkedin.com/company/dair-ai/",
+      "post_url": "https://www.linkedin.com/posts/model-carving-this-work-from-harvard-share-7530793074659139584-Ux9E/",
+      "observed_on": "2026-11-24",
+      "liked_on": null,
+      "published_on": "2026-11-24",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "DAIR.AI summarizes Harvard/NYU's Model Carving, which adds learnable scalar gates to every attention and MLP sublayer and removes closed ones; the authors report lower validation loss than dense models trained with up to 1.7x more compute, up to 34% fewer FLOPs per token and up to 1.6x faster decoding.",
+      "external_links": [
+        {
+          "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+          "url": "https://academy.dair.ai/papers/model-carving-training-transformers-that-optimize-their-own-topology-2611.27962"
+        }
+      ],
+      "published_at": "2026-11-24T00:43:04.368Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "DAIR.AI summarizes Harvard/NYU's Model Carving, which adds learnable scalar gates to every attention and MLP sublayer and removes closed ones; the authors report lower validation loss than dense models trained with up to 1.7x more compute, up to 34% fewer FLOPs per token and up to 1.6x faster decoding.",
+      "engagement": {
+        "reactions": "57",
+        "comments": "1",
+        "reposts": "8"
+      }
+    },
+    {
+      "id": "c42e7c4b38e3b8b9314e7fd3",
+      "capture_orders": [
+        507
+      ],
+      "author": "Bret Taylor",
+      "author_url": "https://www.linkedin.com/in/brettaylor/",
+      "post_url": "https://www.linkedin.com/posts/brettaylor_today-sierra-is-announcing-our-series-f-share-7530623170102509568-Nju7/",
+      "observed_on": "2026-11-24",
+      "liked_on": null,
+      "published_on": "2026-11-23",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Bret Taylor announces Sierra's Series F of $1.75B at a $30B valuation, led by Greenoaks and Lightspeed, and says Sierra builds agents with almost 50% of the Fortune 50.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/gsabJZRz",
+          "url": "https://lnkd.in/gsabJZRz"
+        },
+        {
+          "title": "Series F (Building the digital front door)",
+          "url": "https://sierra.ai/blog/series-f-30b"
+        }
+      ],
+      "published_at": "2026-11-23T13:27:55.965Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Bret Taylor announces Sierra's Series F of $1.75B at a $30B valuation, led by Greenoaks and Lightspeed, and says Sierra builds agents with almost 50% of the Fortune 50.",
+      "engagement": {
+        "reactions": "4469",
+        "comments": "153",
+        "reposts": "112"
+      }
+    },
+    {
+      "id": "c2a66c7a4238c9b92ac09ec0",
+      "capture_orders": [
+        508
+      ],
+      "author": "Charlie Warren",
+      "author_url": "https://www.linkedin.com/in/chwarren/",
+      "post_url": "https://www.linkedin.com/posts/chwarren_im-hiring-a-director-to-help-me-lead-yc-share-7530693637299486720-CApB/",
+      "observed_on": "2026-11-24",
+      "liked_on": null,
+      "published_on": "2026-11-23",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Charlie Warren is hiring a Director for YC Early Access, a new YC program connecting technology buyers with batch and alumni YC companies.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/gZF99q4A",
+          "url": "https://lnkd.in/gZF99q4A"
+        },
+        {
+          "title": "Director of Early Access at Y Combinator",
+          "url": "https://www.ycombinator.com/companies/y-combinator/jobs/dANkdUE-director-of-early-access"
+        }
+      ],
+      "published_at": "2026-11-23T18:07:56.654Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Charlie Warren is hiring a Director for YC Early Access, a new YC program connecting technology buyers with batch and alumni YC companies.",
+      "engagement": {
+        "reactions": "319",
+        "comments": "16",
+        "reposts": "21"
+      }
+    },
+    {
+      "id": "6408c3721b2810ec89f6b72e",
+      "capture_orders": [
+        509
+      ],
+      "author": "DAIR.AI",
+      "author_url": "https://www.linkedin.com/company/dair-ai/",
+      "post_url": "https://www.linkedin.com/posts/this-looks-like-an-important-paper-from-cornell-share-7530636292108374016-tjDa/",
+      "observed_on": "2026-11-24",
+      "liked_on": null,
+      "published_on": "2026-11-23",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "DAIR.AI summarizes a Cornell paper reporting that RL post-training on knowledge tasks makes models memorize hallucinations from their own reasoning chains: recall of rewarded hallucinations rose 4.83% on average versus 0.17% for unrewarded ones, and rewarded hallucinations made models 7.23% less likely to abstain.",
+      "external_links": [
+        {
+          "title": "LLMs Memorize Their Own Hallucinations During Post-Training",
+          "url": "https://academy.dair.ai/papers/llms-memorize-their-own-hallucinations-during-post-training-2611.26863"
+        }
+      ],
+      "published_at": "2026-11-23T14:20:04.495Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "DAIR.AI summarizes a Cornell paper reporting that RL post-training on knowledge tasks makes models memorize hallucinations from their own reasoning chains: recall of rewarded hallucinations rose 4.83% on average versus 0.17% for unrewarded ones, and rewarded hallucinations made models 7.23% less likely to abstain.",
+      "engagement": {
+        "reactions": "112",
+        "comments": "3",
+        "reposts": "3"
+      }
+    },
+    {
+      "id": "1f4f6c31ba2eacea1972e16d",
+      "capture_orders": [
+        510
+      ],
+      "author": "Pushmeet Kohli",
+      "author_url": "https://www.linkedin.com/in/pushmeet-kohli-4838994/",
+      "post_url": "https://www.linkedin.com/posts/pushmeet-kohli-4838994_gemini-powered-agents-are-accelerating-discoveries-share-7530681121643081728-S1Mw/",
+      "observed_on": "2026-11-24",
+      "liked_on": null,
+      "published_on": "2026-11-23",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Pushmeet Kohli says Gemini-powered Google DeepMind agents found quantum algorithms that cut estimated compute costs by 10.9x for a fusion simulation, 8.1x for photochemistry and 2.5x for a drug-metabolism molecule, with each circuit result proved in Lean.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/eaCxy9jX",
+          "url": "https://lnkd.in/eaCxy9jX"
+        },
+        {
+          "title": "Finding faster quantum algorithms with agents and formal verification",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+        }
+      ],
+      "published_at": "2026-11-23T17:18:12.689Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Pushmeet Kohli says Gemini-powered Google DeepMind agents found quantum algorithms that cut estimated compute costs by 10.9x for a fusion simulation, 8.1x for photochemistry and 2.5x for a drug-metabolism molecule, with each circuit result proved in Lean.",
+      "engagement": {
+        "reactions": "393",
+        "comments": "9",
+        "reposts": "22"
+      }
+    },
+    {
+      "id": "414e1203b3b6ced434448224",
+      "capture_orders": [
+        511
+      ],
+      "author": "Haibo Ding",
+      "author_url": "https://www.linkedin.com/in/haibonlp/",
+      "post_url": "https://www.linkedin.com/posts/haibonlp_agentcore-strands-strandsdecider-share-7530703193937248256-JeAp/",
+      "observed_on": "2026-11-24",
+      "liked_on": null,
+      "published_on": "2026-11-23",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Haibo Ding announces AWS's Strands Decider v2, a family of five Apache-2.0 open decision models (E2B, E4B, 12B, 26B-A4B, 31B) using prefix-bidirectional attention, which he says beats v1 on accuracy and calibration and adds image input.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/gDGHDJRw",
+          "url": "https://lnkd.in/gDGHDJRw"
+        },
+        {
+          "title": "Shared link: lnkd.in/g7qu_FXk",
+          "url": "https://lnkd.in/g7qu_FXk"
+        },
+        {
+          "title": "Shared link: lnkd.in/gFuYtFPP",
+          "url": "https://lnkd.in/gFuYtFPP"
+        },
+        {
+          "title": "GitHub - strands-labs/strands-decider: A small, fast decision model, or system one model, for agentic workflows. Pick between options or rate on a scale faster than an LLM, with a calibrated confidence on every decision.",
+          "url": "https://github.com/strands-labs/strands-decider"
+        }
+      ],
+      "published_at": "2026-11-23T18:45:55.134Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Haibo Ding announces AWS's Strands Decider v2, a family of five Apache-2.0 open decision models (E2B, E4B, 12B, 26B-A4B, 31B) using prefix-bidirectional attention, which he says beats v1 on accuracy and calibration and adds image input.",
+      "engagement": {
+        "reactions": "150",
+        "comments": "10",
+        "reposts": "18"
+      }
+    },
+    {
+      "id": "d5d790f0a741cf1b2dfb7b67",
+      "capture_orders": [
+        512
+      ],
+      "author": "Zain Hasan",
+      "author_url": "https://www.linkedin.com/in/zainhas/",
+      "post_url": "https://www.linkedin.com/posts/zainhas_anthropics-guide-on-how-to-evaluate-ai-agents-share-7530480282211172352-6ZPC/",
+      "observed_on": "2026-11-24",
+      "liked_on": null,
+      "published_on": "2026-11-23",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Zain Hasan highlights lessons from Anthropic's guide to evaluating AI agents, such as starting with 20 to 50 tasks taken from real failures, grading outcomes rather than exact tool-call sequences, and fixing the eval itself (Opus 4.5 reportedly went from 42% to 95% on CORE-Bench after grading and scaffold fixes).",
+      "external_links": [
+        {
+          "title": "Demystifying evals for AI agents",
+          "url": "https://www.anthropic.com/research/demystifying-evals-for-ai-agents"
+        }
+      ],
+      "published_at": "2026-11-23T04:00:08.837Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Zain Hasan highlights lessons from Anthropic's guide to evaluating AI agents, such as starting with 20 to 50 tasks taken from real failures, grading outcomes rather than exact tool-call sequences, and fixing the eval itself (Opus 4.5 reportedly went from 42% to 95% on CORE-Bench after grading and scaffold fixes).",
+      "engagement": {
+        "reactions": "254",
+        "comments": "47",
+        "reposts": "13"
+      }
+    },
+    {
+      "id": "24ea0e8248a8290c9fb2437b",
+      "capture_orders": [
+        513
+      ],
+      "author": "Elvis Saravia",
+      "author_url": "https://www.linkedin.com/in/omarsar/",
+      "post_url": "https://www.linkedin.com/posts/omarsar_great-paper-from-alibaba-on-recursive-self-improvement-share-7530635536642805761--Vjh/",
+      "observed_on": "2026-11-24",
+      "liked_on": null,
+      "published_on": "2026-11-23",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Elvis Saravia summarizes Alibaba's CoEvoBench, in which an LLM researcher gets a 9B base model, a starting harness and 24 hours to co-evolve model and harness; he reports GPT-6 Astra closed over four-fifths of the gap to an instruct model and that the harness drove most gains in four of five domains.",
+      "external_links": [
+        {
+          "title": "CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?",
+          "url": "https://academy.dair.ai/papers/coevobench-can-llms-drive-recursive-co-evolution-of-agentic-systems-2611.27116"
+        }
+      ],
+      "published_at": "2026-11-23T14:17:04.378Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Elvis Saravia summarizes Alibaba's CoEvoBench, in which an LLM researcher gets a 9B base model, a starting harness and 24 hours to co-evolve model and harness; he reports GPT-6 Astra closed over four-fifths of the gap to an instruct model and that the harness drove most gains in four of five domains.",
+      "engagement": {
+        "reactions": "131",
+        "comments": "9",
+        "reposts": "18"
+      }
+    },
+    {
+      "id": "c44f357e07a629a4981ffac4",
+      "capture_orders": [
+        514
+      ],
+      "author": "Ben Burtenshaw",
+      "author_url": "https://www.linkedin.com/in/ben-burtenshaw/",
+      "post_url": "https://www.linkedin.com/posts/ben-burtenshaw_how-do-you-actually-build-an-agentic-eval-share-7530653790971133953-OLRT/",
+      "observed_on": "2026-11-24",
+      "liked_on": null,
+      "published_on": "2026-11-23",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Ben Burtenshaw (Hugging Face) shares a report and guide on building an agentic eval from a real physics-lab example, covering turning workflows into test cases, writing graders, partial publication and keeping the benchmark useful as models improve.",
+      "external_links": [
+        {
+          "title": "Shared link: lnkd.in/ed5uTufM",
+          "url": "https://lnkd.in/ed5uTufM"
+        }
+      ],
+      "published_at": "2026-11-23T15:29:36.549Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Ben Burtenshaw (Hugging Face) shares a report and guide on building an agentic eval from a real physics-lab example, covering turning workflows into test cases, writing graders, partial publication and keeping the benchmark useful as models improve.",
+      "engagement": {
+        "reactions": "401",
+        "comments": "19",
+        "reposts": "47"
+      }
     }
   ]
 }
