@@ -14045,6 +14045,47 @@
         "comments": "19",
         "reposts": "47"
       }
+    },
+    {
+      "id": "84b11f3f68aef9d6c411ac81",
+      "capture_orders": [
+        515
+      ],
+      "author": "James Zou",
+      "author_url": "https://www.linkedin.com/in/james-zou-2123a4133/",
+      "post_url": "https://www.linkedin.com/posts/james-zou-2123a4133_neurips2026-share-7531448475524235265-sEBr/",
+      "observed_on": "2026-11-27",
+      "liked_on": null,
+      "published_on": "2026-11-25",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "James Zou reports that Fisher-R1 was accepted as an oral at NeurIPS 2026 (top 112 of >30K submissions, per the post). The team RL post-trained LLMs for statistical reasoning and inference, which he calls critical for agentic science, and introduced P-Bench to evaluate hypothesis-testing ability; paper, code, benchmark and model (Fisher-R1-14B) are linked. Credits Jiacheng Miao, Jin Mu and Guanhua Chen.",
+      "external_links": [
+        {
+          "title": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+          "url": "https://arxiv.org/abs/2608.07437"
+        },
+        {
+          "title": "GitHub - jmu27/FisherR1 · GitHub",
+          "url": "https://github.com/jmu27/FisherR1"
+        },
+        {
+          "title": "May2222/P-Bench · Datasets at Hugging Face",
+          "url": "https://huggingface.co/datasets/May2222/P-Bench"
+        },
+        {
+          "title": "May2222/Fisher-R1-14B · Hugging Face",
+          "url": "https://huggingface.co/May2222/Fisher-R1-14B"
+        }
+      ],
+      "published_at": "2026-11-25T20:07:24.111Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "James Zou reports that Fisher-R1 was accepted as an oral at NeurIPS 2026 (top 112 of >30K submissions, per the post). The team RL post-trained LLMs for statistical reasoning and inference, which he calls critical for agentic science, and introduced P-Bench to evaluate hypothesis-testing ability; paper, code, benchmark and model (Fisher-R1-14B) are linked. Credits Jiacheng Miao, Jin Mu and Guanhua Chen.",
+      "engagement": {
+        "reactions": "739",
+        "comments": "9",
+        "reposts": "27"
+      }
     }
   ]
 }

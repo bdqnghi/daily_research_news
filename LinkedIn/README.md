@@ -4,6 +4,7 @@ Daily research notes grouped by the exact publication day of each liked post, ma
 
 ## Daily notes
 
+- [2026-11-25](2026/11/2026-11-25.md) — 1 post
 - [2026-11-24](2026/11/2026-11-24.md) — 1 post
 - [2026-11-23](2026/11/2026-11-23.md) — 10 posts
 - [2026-11-22](2026/11/2026-11-22.md) — 6 posts
@@ -142,8 +143,8 @@ Dates use UTC, matching the existing X pipeline. The precise timestamp is decode
 
 ## Coverage
 
-- 513 post summaries from 513 observed post-like items.
-- 513 posts placed into 129 exact daily notes; 0 remain undated.
+- 514 post summaries from 514 observed post-like items.
+- 514 posts placed into 130 exact daily notes; 0 remain undated.
 - Earlier 2026 history remains incomplete. The requested LinkedIn account export is still pending and will help reconcile the complete inventory; it is not required to date a post with an original permalink.
 - Repeated wording is retained as separate posts when original permalinks differ. Two such pairs were verified. One comment-like was excluded.
 
