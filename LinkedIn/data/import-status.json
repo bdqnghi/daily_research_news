@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observed_on": "2026-11-27",
+  "observed_on": "2026-11-28",
   "observations": [
     {
       "observed_on": "2026-10-24",
@@ -85,6 +85,12 @@
       "observed_activity_items": 1,
       "post_like_observations": 1,
       "note": "Incremental likes import. Per-post observed_on on this record matches this batch. One additional reaction in the capture was already archived and is not recounted."
+    },
+    {
+      "observed_on": "2026-11-28",
+      "observed_activity_items": 5,
+      "post_like_observations": 5,
+      "note": "Incremental likes import. Per-post observed_on on these 5 records matches this batch."
     }
   ],
   "timezone": "America/Los_Angeles",
@@ -92,9 +98,9 @@
   "source_url": "https://www.linkedin.com/in/quocnghi/recent-activity/reactions/",
   "requested_reaction_year": 2026,
   "coverage": "partial",
-  "observed_activity_items": 515,
-  "post_like_observations": 514,
-  "post_summaries": 514,
+  "observed_activity_items": 520,
+  "post_like_observations": 519,
+  "post_summaries": 519,
   "identical_content_groups": [
     {
       "id": "1b037d71306bcc0b7be62118",
@@ -113,7 +119,7 @@
       "status": "Distinct original post permalinks verified; both posts retained separately with their own publication dates."
     }
   ],
-  "post_urls_captured": 514,
+  "post_urls_captured": 519,
   "exact_reaction_dates_available": false,
   "displayed_publication_age_range": [
     "6h",
@@ -142,10 +148,10 @@
     "Audit the expanded archive against all 2026 Like events."
   ],
   "date_basis": "post_publication_utc",
-  "publication_dates_resolved": 514,
+  "publication_dates_resolved": 519,
   "publication_dates_pending": 0,
-  "daily_note_count": 130,
-  "detailed_summaries": 514,
+  "daily_note_count": 131,
+  "detailed_summaries": 519,
   "publication_date_method": "Unix-millisecond timestamp encoded in original LinkedIn post ID (integer ID shifted right 22 bits), grouped by UTC publication day.",
   "exact_reaction_dates_required_for_daily_grouping": false
 }

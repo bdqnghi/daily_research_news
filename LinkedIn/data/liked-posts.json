@@ -14086,6 +14086,162 @@
         "comments": "9",
         "reposts": "27"
       }
+    },
+    {
+      "id": "cf3c1cdc3ab441a8eb58d4d4",
+      "capture_orders": [
+        516
+      ],
+      "author": "Lenny Rachitsky",
+      "author_url": "https://www.linkedin.com/in/lennyrachitsky/",
+      "post_url": "https://www.linkedin.com/posts/lennyrachitsky_the-three-archetypes-of-product-manager-ugcPost-7531503917625434112-wvGd/",
+      "observed_on": "2026-11-28",
+      "liked_on": null,
+      "published_on": "2026-11-25",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Lenny Rachitsky shares a clip from his conversation with Sherif Mansour describing three product-manager archetypes (scientist, artist, general manager) and noting few people excel at all three.",
+      "external_links": [
+        {
+          "title": "Why “everyone becoming a builder” isn't working",
+          "url": "https://www.youtube.com/watch?v=hRtmV1mCBSE"
+        }
+      ],
+      "published_at": "2026-11-25T23:47:42.538Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Lenny Rachitsky shares a clip from his conversation with Sherif Mansour describing three product-manager archetypes (scientist, artist, general manager) and noting few people excel at all three.",
+      "engagement": {
+        "reactions": "276",
+        "comments": "94",
+        "reposts": "5"
+      }
+    },
+    {
+      "id": "695905d47a668bc9977e9fa4",
+      "capture_orders": [
+        517
+      ],
+      "author": "Rohan Paul",
+      "author_url": "https://www.linkedin.com/in/rohan-paul-ai/",
+      "post_url": "https://www.linkedin.com/posts/rohan-paul-ai_can-llms-improve-their-own-harness-ugcPost-7532071649278369792-pFrn/",
+      "observed_on": "2026-11-28",
+      "liked_on": null,
+      "published_on": "2026-11-27",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Rohan Paul summarizes an Amazon paper reporting that frontier models can build their own ARC-AGI-3 agent harness, but two rounds of self-revision raised practice-game scores by 8.42 points and unseen-game scores by only 2.80; he advises scoring harness revisions on held-out tasks.",
+      "external_links": [
+        {
+          "title": "Can LLMs Improve Their Own Harness? A Controlled Study on ARC-AGI-3",
+          "url": "https://arxiv.org/pdf/2610.30499"
+        },
+        {
+          "title": "Rohan Paul (@rohanpaul_ai) on X",
+          "url": "https://x.com/rohanpaul_ai"
+        }
+      ],
+      "published_at": "2026-11-27T13:23:40.312Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Rohan Paul summarizes an Amazon paper reporting that frontier models can build their own ARC-AGI-3 agent harness, but two rounds of self-revision raised practice-game scores by 8.42 points and unseen-game scores by only 2.80; he advises scoring harness revisions on held-out tasks.",
+      "engagement": {
+        "reactions": "1",
+        "comments": "0",
+        "reposts": "0"
+      }
+    },
+    {
+      "id": "4a093114200487a8f78dda43",
+      "capture_orders": [
+        518
+      ],
+      "author": "Jiacheng Miao",
+      "author_url": "https://www.linkedin.com/in/jiacheng-miao-59b63719a/",
+      "post_url": "https://www.linkedin.com/posts/jiacheng-miao-59b63719a_neurips2026-fisherr1-pbench-share-7531401515719184384-oSdM/",
+      "observed_on": "2026-11-28",
+      "liked_on": null,
+      "published_on": "2026-11-25",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Jiacheng Miao announces the NeurIPS 2026 oral Fisher-R1 and P-Bench (425 expert-audited hypothesis-testing tasks), reporting that GPT-5.4 gives a reliable p-value on only 30.5% of hard tasks and that Fisher-R1, trained with SFT then RL on synthetic simulated data, beats same-size and some larger open models.",
+      "external_links": [
+        {
+          "title": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+          "url": "https://arxiv.org/abs/2608.07437"
+        },
+        {
+          "title": "GitHub - jmu27/FisherR1",
+          "url": "https://github.com/jmu27/FisherR1"
+        },
+        {
+          "title": "May2222/P-Bench · Datasets at Hugging Face",
+          "url": "https://huggingface.co/datasets/May2222/P-Bench"
+        },
+        {
+          "title": "May2222/Fisher-R1-14B · Hugging Face",
+          "url": "https://huggingface.co/May2222/Fisher-R1-14B"
+        }
+      ],
+      "published_at": "2026-11-25T17:00:48.021Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Jiacheng Miao announces the NeurIPS 2026 oral Fisher-R1 and P-Bench (425 expert-audited hypothesis-testing tasks), reporting that GPT-5.4 gives a reliable p-value on only 30.5% of hard tasks and that Fisher-R1, trained with SFT then RL on synthetic simulated data, beats same-size and some larger open models.",
+      "engagement": {
+        "reactions": "677",
+        "comments": "18",
+        "reposts": "26"
+      }
+    },
+    {
+      "id": "3ce237afeb9ae9966b958a06",
+      "capture_orders": [
+        519
+      ],
+      "author": "Lewis Tunstall",
+      "author_url": "https://www.linkedin.com/in/lewis-tunstall/",
+      "post_url": "https://www.linkedin.com/posts/lewis-tunstall_how-do-you-like-practically-run-a-swarm-share-7531375878484979712-nzr7/",
+      "observed_on": "2026-11-28",
+      "liked_on": null,
+      "published_on": "2026-11-25",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "Lewis Tunstall shares a Hugging Face field report on building PyBot with a swarm of about 1,000 agents, covering Git/Hub scaling problems, steering swarms on open-ended tasks, measuring idea basins for diversity, and new open-source swarm tools.",
+      "external_links": [
+        {
+          "title": "Scaling Swarms to Thousands of Agents",
+          "url": "https://huggingfaceswarms-scaling-swarms.hf.space/"
+        }
+      ],
+      "published_at": "2026-11-25T15:18:55.628Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "Lewis Tunstall shares a Hugging Face field report on building PyBot with a swarm of about 1,000 agents, covering Git/Hub scaling problems, steering swarms on open-ended tasks, measuring idea basins for diversity, and new open-source swarm tools.",
+      "engagement": {
+        "reactions": "506",
+        "comments": "41",
+        "reposts": "28"
+      }
+    },
+    {
+      "id": "fe7dcc77909cfa016ca21f3a",
+      "capture_orders": [
+        520
+      ],
+      "author": "DAIR.AI",
+      "author_url": "https://www.linkedin.com/company/dair-ai/",
+      "post_url": "https://www.linkedin.com/posts/new-paper-from-microsoft-and-colleagues-on-share-7532104969437630464-mvzM/",
+      "observed_on": "2026-11-28",
+      "liked_on": null,
+      "published_on": "2026-11-27",
+      "published_age": null,
+      "reaction": "Like",
+      "summary": "DAIR.AI summarizes a Microsoft paper on HyperHarness, which trains one generator that writes per-user retrieval and answer-guidance harness functions from a user's history, refining the generator on task scores while leaving the answering model unchanged.",
+      "external_links": [],
+      "published_at": "2026-11-27T15:36:04.457Z",
+      "publication_date_source": "Timestamp encoded in the original LinkedIn post identifier (UTC).",
+      "details": "DAIR.AI summarizes a Microsoft paper on HyperHarness, which trains one generator that writes per-user retrieval and answer-guidance harness functions from a user's history, refining the generator on task scores while leaving the answering model unchanged.",
+      "engagement": {
+        "reactions": "347",
+        "comments": "12",
+        "reposts": "34"
+      }
     }
   ]
 }
